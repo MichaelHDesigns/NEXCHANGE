@@ -1,0 +1,392 @@
+﻿{
+  "generalterms": {
+    "formsucess": "Ihre Anfrage wurde erfolgreich abgesendet und übermittelt.. Wir werden uns so schnell wie möglich bei Ihnen melden!",
+    "formfailed":
+      "Es gab ein Problem mit Ihrer Verbindung. Bitte probieren Sie es später erneut oder benutzen Sie Ihr E-Mail Programm, um uns zu kontaktieren.",
+    "email": "Email",
+    "address": "Adresse",
+    "youraddress": "Geben Sie Ihre {{selectedCoin}} Adresse ein",
+    "search": "Suchen",
+    "submit": "Bestätigen"
+  },
+  "header": {
+    "about": "Über uns",
+    "faq": "FAQ",
+    "apidocs": "API Docs",
+    "compare": "Vergleich Kurse",
+    "support": "Support",
+    "twitter": "Folgen Sie uns Twitter",
+    "facebook": "Liken Sie uns Facebook",
+    "telegram": "Begleiten Sie uns auf Telegram",
+    "en": "Englisch",
+    "de": "Deutsch"
+  },
+  "hero": {
+    "1": "Umtausch von Kryptowährungen",
+    "2": "<0>Einfach. <1>Sicher</1>. Transparent.</0>"
+  },
+  "exchangewidget": {
+    "1": "Legen Sie los!",
+    "2": "*Bestätigen & Auftrag erteilen",
+    "3": "Ihre",
+    "4": "Adresse",
+    "fees": "Die Gebühren liegen bei",
+    "min": "Min menge",
+    "max": "Max menge"
+  },
+  "recentorders": {
+    "1": "Letzte Aufträge",
+    "2": "Klicken Sie für Ansicht in API",
+    "3": "In der API anzeigen"
+  },
+  
+  "pricecomparison": {
+    "1": "Echtzeit Raten",
+    "2": "Beste Raten"
+  },
+  "about": {
+    "title": "Über Uns",
+    "teamtitle": "Die Leute, die es möglich machen",
+    "1":
+      "HTHWorld ist eine schnelle, verlässliche und vollständig transparente Börse für Kryptowährungen, entwickelt von Krypto-Enthusiasten für Krypto-Enthusiasten.",
+    "2": "Wir sind ein Team multinationaler, interdisziplinärer Experten für Kryptowährungen.",
+    "3":
+      "Unser Team ist zusammengekommen, um diese Plattform zu entwickeln, nachdem wir aus erster Hand den Bedarf an einer schnellen, verlässlichen Börse auf dem Markt für Kryptowährungen gespürt haben.",
+    "4": "Wir sind stolz auf unsere umfassende Transparenz",
+    "5": "Alles ist durch unsere Programmierschnittstelle einsichtbar, angefangen bei Auftrag-Listen bis hin zu unseren Coin-Reserven.",
+    "6":
+      "HTHWorld fundiert auf mehreren Grundwerten, die unser Team in tagtäglichen Arbeit leiten. Darunter vollständige Transparenz, das Streben, Kryptowährungen so zugänglich wie möglich zu machen und eine Leidenschaft für Open Source.",
+    "7":
+      "<0>Um unsere Mission, Kryptowährungen für jedermann so zugänglich wie möglich zu machen, zu unterstützen, haben wir unseren <2><0>Frontend Client auf Open Source Basis <1></1></0></2> entwickelt.</0>",
+    "oleg":
+      "Interdisziplinäre Programmierer. Aufstrebender Wegbereiter mit einer starken Leidenschaft für Open Source und die Welt zu verbessern, Schritt für Schritt, jeden Tag.",
+    "sarunas": "Backend Entwickler und Physiker. Animationsfan, Begeisterung für Kryptowährungen und spielt Saxofon.",
+    "karolis": "Full-Stack Entwickler. Unternehmer aus vollem Herzen.  Genießt es, Produkte durch Code zum Leben zu erwecken.",
+    "justas":
+      "DevOps Orchestrator. Shuffling Docker, Swarm & Kubernetes. Befürworter von micro-component Design und nahtloser Skalierbarkeit.",
+    "chirag": "Informationstechnologie Generalist, Internationaler Händler, Wachstumshacker und frischgebackener Blockchain Fan!",
+    "paulina":
+      "Magierin des Produktmanagements. Liebt es, Produkt Usability zu erschaffen und zu verbessern. Freizeit-Gewichtheberin und ist für Frauen im Technologiebereich.",
+    "cyrus":
+      "Cornell University MEng, Informatik. Lerne zu lehren, lehre zu lernen. Leidenschaft für Programmierung, Astronomie und kürzlich für dezentralisierte und verteilte Systeme.",
+    "justasv":
+      "User Experience Spezialist mit 7 Jahren Erfahrung. Arbeitete mit vielen erfolgreichen Projekten in den Bereichen Blockchain, Crypto, Startup, E-Commerce.",
+    "alejandro":
+      "Erfahrener globaler Investor, Gründer der Nexus Group, ToN Ventures, 01Labs und 01Ventures. Im Jahr 2013 von Private Equity World zu den 50 einflussreichsten Persönlichkeiten in Lateinamerika ernannt.",
+    "vincenzo":
+      "Serial Entrepreneur, erfahren in der Schaffung und dem Aufbau von globalen Technologieunternehmen in der Rundfunk-, Medien- und Sicherheitsbranche.",
+    "charles":
+      "Senior Software Engineer und IT Architekt mit fast 40 Jahren Branchenerfahrung. Derzeit arbeitet er mit Blockchain-Technologie, um Lösungen mit hoher Kapazitätsrate zu entwickeln.",
+    "vit": "Präsident der Freien Republik Liberland. Ehemaliger tschechischer Politiker, Publizist und Aktivist.",
+    "you": "Du?",
+    "youdesc":
+      "<0><0>Wir suchen stets Zuwachs für unser HTHWorld Dream-Team. Wir suchen insbesondere talentierte Entwickler, Marketing-Personal, einen Community-Manager und Autoren.</0><1>Schreiben Sie einfach an <1>business@hthcoin.world</1>.</1></0>",
+    "israel": "Israel",
+    "lithuania": "Litauen",
+    "poland": "Polen",
+    "US": "Vereinigte Staaten"
+  },
+  
+  "footer": {
+    "1": "Geschäftsbedingungen",
+    "2": "Datenschutzerklärung",
+    "3": "<0>Alle Rechte gesichert, YOA LTD 2016-2017,<1></1> England & Wales <4>Registiernummernr. 10009845</4></0>"
+  },
+  
+  "support": {
+    "1": "Kundendienst",
+    "2": "Festnetz",
+    "3": "E-Mail",
+    "4": "Name",
+    "5": "Telefon",
+    "6": "Betreff",
+    "7": "Nachricht",
+    "8": "Abschicken",
+    "9": "Schließen"
+  },
+  "terms": {
+    "1": "Allgemeine Geschäftsbedingungen",
+    "2":
+      "HTHWorld ist eine Börse, die es ermöglicht, Krypto und Fiat-Währungen mit dem besten Wechselkurs zu tauschen. Die Begriffe “Wir“, “Exchange“, “Exchange-Operator“ beziehen sich auf HTHWorld.",
+    "3":
+      "Indem Sie HTHWorld verwenden, stimmen Sie diesen Bedingungen zu. Bitte lesen Sie sie sorgfältig. Wenn Sie mit den Bedingungen in dieser Vereinbarung nicht einverstanden sind, dürfen Sie die Börse nicht nutzen.",
+    "4":
+      "Wir behalten uns das Recht vor, jederzeit Änderungen an unserer Website, Richtlinien und Nutzungsbedingungen vorzunehmen. Der Inhalt der Seiten der Website dient ausschließlich der allgemeinen Information und Nutzung. Änderungen vorbehalten. ",
+    "5":
+      "HTHWorld ist nicht verantwortlich für Verluste, die aus irgendeinem Grund während der Arbeit mit dem Exchange verursacht werden. Jegliche Art von Verlusten, die durch Aktivitäten Dritter verursacht werden, muss vom Benutzer selbst gehandhabt werden.",
+    "6":
+      "HTHWorld erhebt eine Vermittlungsgebühr für die Nutzung des Dienstes. Die Gebühr beträgt 0,5% des Transaktionsvolumens für Kryptowährung zu Kryptowährung auf Kryptowährungs -Majors (BTC, ETH, LTC und ähnlich), 1% auf Mindere (Rest) und 2% auf Fiat-Paare (wie BTCEUR). Zusätzlich zu diesen 2% kann eine Zahlungsprozessorgebühr von 5% -7% in Abhängigkeit von der Währung und der von Ihnen gewählten Zahlungsmethode erhoben werden. ",
+    "7":
+      "Alle Gebühren sind transparent und bereits im errechneten Auftragspreis enthalten. Die Gebühr kann aufgrund der mathematischen Rundung Schwankungen unterliegen.",
+    "8":
+      "Transaktionen können nicht von HTHWorld storniert werden. Überprüfen Sie daher Ihre Zahlungsdetails, bevor Sie eine Transaktion durchführen. HTHWorld ist nicht für Ihre Coins verantwortlich, sobald diese an den Exchange gesendet wurden.",
+    "9": "HTHWorld garantiert nicht die Betriebszeit des Austauschs. Wartung und Ausfallzeiten können manchmal erforderlich sein.",
+    "10":
+      "Durch das Hochladen oder Teilen jeglicher Art von Inhalten gewähren Sie uns automatisch eine weltweite Lizenz zur Nutzung Ihrer Inhalte. Sie wird Teil der Public Domain, solange sie auf unserer Website verbleibt. Sie kann für Marketingzwecke verwendet werden oder andere Zwecke von HTHWorld. ",
+    "11": "Sie dürfen HTHWorld nicht ausfolgenden Ländern verwenden oder darauf zugreifen",
+    "12":
+      "Transaktionen von Nutzern in diesen Ländern sind verboten, und HTHWorld kann Gelder von Nutzern in diesen Ländern beanspruchen. Durch den Zugriff auf diese Website oder die darin enthaltenen Dienstleistungen versichern Sie, dass Sie sich nicht in diesen vom Service ausgeschlossenen Gebieten befinden. ",
+    "13": "New York State",
+    "14": "Staat Washington",
+    "15": "Nordkorea"
+  },
+  "bookmark": {
+    "0": "LESEZEICHEN",
+    "1": "Drücken Sie",
+    "2":
+      "um diese Seite zu Ihren Lesezeichen hinzu zu fügen. Sie können jederzeit zu dieser Seite zurückkehren, um den Status Ihres Auftrags abzurufen."
+  },
+  "order": {
+    "enteraddress": "Geben Sie Ihre Wallet-Adresse ein",
+    "copy": "Adresse der Wallet kopiert!",
+    "reference": "Auftrag Referenz",
+    "api": "Details Ihres Auftrages in unsere API",
+    "blockchain": "Sehen Sie Ihre  Auftragsdetails in der Blockchain ein",
+    "processing": "Abhebung wird ausgeführt...",
+    "released": "Gelder freigegeben, erwarte Bestätigungen",
+    "txid": "Transaktionsnummer",
+    "expired1": "Auftrag abgelaufen",
+    "expired2": "<0>Ihr Auftrag ist abgelaufen. Sie können einen <2>neuen Tausch-Auftrag aufgeben</2>.</0>",
+    "expired3":
+      "Wenn Sie Ihre Coins bereits abgeschickt haben, sorgen Sie sich nicht.  Sobald wir sie erhalten, wird der Status des Auftrags rückwirkend aktualisiert.",
+    "expired4": "Bereits abgeschickt?",
+    "failure1": "Ausführung des Auftrags fehlgeschlagen",
+    "failure2": "Es gab ein Problem mit Ihrem Auftrag. Bitte wenden Sie sich an den Kundendienst",
+    "initial1": "Verbleibende Zeit",
+    "initial2": "Senden Sie",
+    "initial3": "an die Adresse",
+    "initial4": "Adresse kopieren",
+    "paid1": "Zahlung erhalten",
+    "paid2": "Wir beginnen jetzt mit dem Versenden Ihrer Coins",
+    "payment1": "Warte auf Transaktionseinzahlung...",
+    "payment2": "Transaktion festgestellt, warte auf Bestätigungen",
+    "pre1": "Wir führen Ihren Auftrag aus",
+    "pre2": "Bitte gestatten Sie bis zu 15 Minuten.",
+    "status1": "1. Warte auf Einzahlung",
+    "status11": "In diesem Schritt warten wir auf Ihre Einzahlung.",
+    "status2": "2. Warte auf Bestätigungen",
+    "status21":
+      "Ihr Auftrag befindet sich in der Blockchain, wir warten nun auf die notwendige Anzahl von Bestätigungen, bevor Sie Ihre Gelder erhalten können.",
+    "status3": "3. Abgeschlossen",
+    "status31": "Wir haben die Gelder erhalten und sie nun an Sie überwiesen.",
+    "success1": "Auftrag erfolgreich",
+    "success2": "Geben Sie einen weiteren Auftrag auf!",
+    "pay": "Zu zahlen",
+    "deposit": "Einzahlung",
+    "receive": "Erhalten",
+    "Deposit": "Einzahlung",
+    "Receive": "Erhalten",
+    "qr": "QR-Code für Einzahlung",
+    "details": "Sehen Sie die genauen Details über Ihre Bestllung in unserer API",
+    "complete": "Abgeschlossen",
+    "rates": "Kurs bei Erstellung des Auftrages",
+    "fee": "Auszahlungsgebühr",
+    "feeinfo": "Der angegebene Preis ist endgültig, alle Gebühren sind inbegriffen.",
+    "refund":
+      "Ihr Auftrag wurde storniert und rueckerstatet. Sollten Sie Fragen haben kontaktieren Sie unseren Support im Livechat oder unter der E-Mail ",
+    "fiat": {
+      "cardsaccepted": "Kreditkarten werden akzeptiert",
+      "cards": "Akzeptierte Karten",
+      "fees": "Gebühren belaufen sich auf",
+      "name": "Ihr Name",
+      "expirationformat": "MM/JJ",
+      "tier": {
+        "limit": "Tradelimit erreich, weitere Verifikation benötigt.",
+        "explanation":
+          "Dies ist ein einmaliger Vorgang. Einmal durchgeführt, sind Sie danach in der Lage Order bis zu dem Tradelimit zu veranlassen, auf welches Sie sich durch Ihre Verifizierung freigeschaltet haben.",
+        "explanation2":
+          "Dies ist ein einmaliger Vorgang. Einmal durchgeführt, sind wir in der Lage Ihre zukünftigen Bestellungen unmittelbar auf Ihre Auszahlungsadresse zu buchen.",
+        "selfie": "Selfie",
+        "selfieexplanation":
+          "Sie müssen ein Selfie von sich selbst machen mit einer Kreditkarte in Ihren Händen, Personalausweis, plus ein Zettel mit dem heutigen Datum und 'HTHWorld'. Sie können die mittleren Ziffern der Kreditkarte verdecken.",
+        "w_selfie": "Whitelist Selfie",
+        "w_selfieexplanation":
+          "Sie müssen ein Selfie von sich selbst machen mit einer Kreditkarte in Ihren Händen, Personalausweis, plus ein Zettel mit dem heutigen Datum und 'HTHWorld'. Sie können die mittleren Ziffern der Kreditkarte verdecken."
+      },
+      "status": {
+        "success": "Wir werden damit fortfahren, Ihr Geld in Kürze freizugeben",
+        "pay": "Jetzt bezahlen",
+        "reject": "Sie konnten aus folgendem Grund nicht verifiziert werden",
+        "paid": "Zahlung und Verifizierungsbestätigung erhalten",
+        "1": "Zahlung erhalten, warte auf Nachweis.",
+        "2":
+          "Um Ihren Auftrag auszuführen, müssen wir Sie besser kennenlernen, indem Sie uns eine Kopie Ihres amtlichen Personalsausweises und Nachweis Ihres Wohnsitzes zuschicken. Wenn wir diese Dokumente nicht innerhalb der nächsten 2 Stunden erhalten, werden wir Ihren Auftrag rückgängig machen.",
+        "3": "Nachweis erhalten, warten auf Bestätigung.",
+        "4":
+          "Wir haben Ihren amtlichen Personalausweis und den Nachweis Ihres Wohnsitzes erhalten. Unser Team überprüft diese nun, rufen Sie diese Seite wiederholt auf, um weitere Informationen zu erhalten.",
+        "5": "Bestätigungsstatus:",
+        "6":
+          "Wir haben Ihre Zahlung erhalten, und unser Team hat Ihre Identität und Ihren Wohnsitz bestätigt. Wir werden nun Ihnen Ihre Coins senden.",
+        "7": "Dieser Prozess ist einmalig! Sobald Sie sich verfiziert haben werden Sie zukünftige Aufträge sofort ausführen können.",
+        "8": "Uns liegt vor, dass Sie bereits den Verifizierungsprozess abgeschlossen haben.",
+        "9":
+          "Wir prüfen nun, ob all Ihre Dokumente noch gültig sind und ob Sie mit dieser Transaktion Ihr Trading-Limit nicht überschreiten (dieses Limit ist an den Grad der Verifikation gebunden).",
+        "10": "Für den Fall, dass wir weitere Dokumente von Ihnen benötigen werden wir Sie kontaktieren per",
+        "11": "Sollten bei Ihnen Fragen aufgekommen sein schreiben Sie uns einfach im Live-Chat oder kontaktieren Sie uns unter",
+        "12": "In diesem Schritt warten wir auf Ihre Einzahlung.",
+        "13": "2. Warte auf Verifizierung",
+        "14": "Wir haben Ihre Einzahlung erhalten und warten jetzt nur noch auf die Bestätigung Ihrer Dokumente."
+      },
+      "kyc": {
+        "1": "Amtlicher Ausweis",
+        "11": "z.B. Farbkopie von Reisepass, Führerschein, Personalausweis. Gibt Geburtsdatum an, hat ein Ablaufdatum.",
+        "2": "Wohnsitznachweis",
+        "21":
+          "Ein Foto in hoher Auflösung / Scan einer Strom-Gas-Wasser-Rechnung eines bekannten Versorgers, welche nicht älter als 3 Monate ist (nicht digital: keine Screenshots, Websites oder PDF's). Die Adresse auf der Rechnung muss eine fiskalische Anschrift sein (kein Postfach!).",
+        "22": "Bank-/ Kreditkartenabrechnungen welche eine fiskalische Anschrift angeben, werden auch akzeptiert.",
+        "3": "Verfizieren lassen",
+        "4": "Datei(en) hochladen",
+        "5": "Hochgeladen",
+        "uploading": "Hochladen",
+        "msg": "Nachricht (optional)",
+        "phone": "Handynummer (optional)",
+        "6":
+          "Helfen Sie uns dabei Sie erreichen zu können, für den Fall, dass wir weitere Fragen an Sie haben.\nDadurch können wir Ihnen Updates zu Ihren Auftrag senden, Ihre Affiliate-Empfehlungen, und ferner Informationen über unsere Produkte.",
+        "retry": "Erneut verifizieren",
+        "retry2": "Wohnadresse erneut bestätigen",
+        "retry3": "Ausweis erneut bestätigen",
+        "statustitle": "Prüfe KYC Status",
+        "status1": "Ihr KYC-Prozess wurde bestätigt.",
+        "status2": "Ihr Ausweis/Pass und die Bestätigung Ihrer Wohnadressse wurden abgelehnt.",
+        "status3": "Der Status der Bestätigung Ihres Ausweis/Pass ist",
+        "status4": "Der Status der Bestätigung Ihrer Wohnadresse ist",
+        "status5": "Kommentar wurde hinzugefügt",
+        "status6": "Update für den Status der KYC",
+        "status7": "Verifizierungsdokumente hochgeladen!",
+        "status8": "Ein Fehler ist aufgetreten. Bitte laden Sie Ihre Dokumente erneut hoch.",
+        "statuscheck": "Klicken Sie hier, um Neuigkeiten über Ihren KYC-Prozess zu erhalten"
+      }
+    }
+  },
+  "notify": {
+    "successmail": "Sie werden nun per E-Mail über Ihren Bestellungsprozess benachrichtigt.",
+    "noaccess": "Sie haben leider nicht die Berechtigung, um für diese Bestellung Nachrichten zu erhalten.",
+    "title": "Lassen Sie sich über den Status Ihrer Bestellung benachrichtigen!",
+    "alt": "Benachrichtigt werden",
+    "action": "Benachrichtigungen zum Vorgang erhalten",
+    "kycupdate": "KYC Status wurde aktualisiert für den Auftrag",
+    "email": "Geben Sie Ihre E-Mail ein",
+    "explanation":
+      "Geben Sie Ihre E-Mail Adresse an, um unseren Empfehlungsprogramm beizutreten & um Benachrichtigungen über den Status Ihrer Transaktion zu erhalten."
+  },
+  "referral": {
+    "1": "Teilen Sie diesen einmaligen Verweis-Link mit Ihren Freunden, um einige Coins dazu zu verdienen!",
+    "2": "Hier ist Ihre einmaliger Verweis-Link",
+    "3": "Geschäftsbedingungen",
+    "4":
+      "Sie erhalten 50% unserer Einnahmen(0.25% des Umsatzes) von allen Ihren Verweisen. Dieses Angebot ist momentan nicht zeitlich begrenzt! Für weitere Details und zusätzliche Unterstützung kontaktieren Sie bitte den Kundendienst über unseren Live-Chat!",
+    "a": "Auf Social-Media teilen!",
+    "copylink": "Link kopieren",
+    "twitter": "Ich%20benutze%20HTHWorld,%20der%20schnelle%20Kryptoexchange%20mit%20den%20besten%20Kursen!",
+    "affiliate":
+      "Übrigens, wenn Sie möchten, können Sie diesen einzigartigen Empfehlungslink mit Ihren Freunden teilen, um ein paar Coins zu verdienen!",
+    "affiliate2":
+      "Verdienen Sie umsonst {{selectedCoin}} auf Ihre Auszahlungsadresse, indem Sie diesen einzigartigen Empfehlungslink an Ihre Freunde teilen!"
+  },
+  "refund": {
+    "title": "Rückerstattungsbedingungen",
+    "1":
+      "Wir werden den Wert der erworbenen Währung auf Grundlage der durch unsere Programmierschnittstelle festgestellten Rate zum Zeitpunkt, da die Währung unser Konto erreicht, zurückerstatten.",
+    "2": "Keine teilweisen Rückerstattungen verfügbar.",
+    "3": "Die maximal rückerstatte Summe beträgt 100% des angegebenen Betrags zum Zeitpunkt des Kaufs.",
+    "4": "Get in touch with us by chatting us or writing us an email at ",
+    "5": "Erfolgreich, Sie legten eine Rückerstattungsadresse fest.",
+    "6": "Erstattungsadresse festlegen",
+    "7": "Rückerstattungsadresse",
+    "8": "Geben Sie Ihre Rückerstattungsadresse ein",
+    "9": "Auftrag Rückerstattet",
+    "10": "<0>Nehmen Sie Kontakt auf unter <1>support@hthcoin.world</1> für weitere Informationen.</0>",
+    "11":
+      "Wir werden jeden Auftrag auf Verlangen des Kunden gemäß dem aktuellen Marktpreis rückgängig machen, vorausgesetzt, die entgegengesetzte Auftragsrichtung wird zum Zeitpunkt der Rückerstattung unterstützt.",
+    "12":
+      "Andernfalls sind keine Rückerstattungen möglich und es liegt in der alleinigen Verantwortung des Benutzers sicherzustellen, dass er die Wallet kontrolliert, deren Adresse er verwendet, um Mittel von HTHWorld zu erhalten."
+  },
+  "faq": {
+    "ques1": "Wer sind Sie?",
+    "ques2": "Was machen Sie?",
+    "ques3": "Wie hoch ist Ihre Gebühr?",
+    "ques4": "Wie lange dauert der Tauschvorgang?",
+    "ques5": "Wir funktioniert es?",
+    "ques6": "Sammeln Sie irgendwelche persönlichen Informationen?",
+    "ques7": "Wie ist das Verfahren, um sich für FIAT zu Kryptowährung Umtauschaufträge zu ‚verifizieren‘?",
+    "ques8": "Benutzen Sie eine Börse oder Programmierschnittstelle von Dritten?",
+    "ques9": "Wie handhaben Sie Sicherheit?",
+    "ques10": "Wie verfolge ich meinen Auftrag?",
+    "ques11": "Wie funktionieren die Empfehlungscodes?",
+    "ques12": "Ich sehe einen 15-Minuten Countdown in meinem Auftragsfenster, was passiert, wenn er heruntergelaufen ist?",
+    "ques13": "Haben Sie derzeit irgendwelche Aktionen?",
+    "ques14": "Brauche ich eine Wallet? Wie bekomme ich eine?",
+    "ans1":
+      "<0><0>HTHWorld is an automated cryptocurrency exchange service forked from <1>YOA LTD. (Registriernummer 10009845)</1>.</0><1>Unsere Steuernummer - GB233 5420 37.<1></1>Unsere registrierte Büro-Adresse - Suite 11, Penhurst House, 352-254 Battersea Park Road, London, England, SW11 3BY.</1><2>Unsere Kundendienstnummer im Vereinigten Königreich ist <1>+442081442192</1>.</2></0>",
+    "ans2":
+      "<0>Wir gestatten den Tausch von einer Kryptowährung in eine andere. Um unsere derzeit unterstützten Coins einzusehen, klicken Sie bitte auf das Coin-Wahl Widget am oberen Seitenrand.</0><1>Wir werden in Kürze weitere Währungen hinzufügen, bleiben Sie auf dem neusten Stand!</1><2>Fehlt Ihr Lieblingscoin? Benachrichtigen Sie uns hier: <1>support@hthcoin.world</1>.</2>",
+    "ans3":
+      "<0>Unsere Service-Gebühr beträgt 0.5%. Es gibt keine versteckten Gebühren: der Betrag, den Sie auf Ihrem Bildschirm sehen, ist genau der Betrag, den Sie in Ihrem Portemonnaie erhalten werden.</0>",
+    "ans4":
+      "<0>Eine Transaktion einzuleiten dauert nicht mehr als ein paar Minuten. Die tatsächliche Ausführung dauert 10–60 Minuten, bevor Sie Ihre Coins in der gewünschten Währung erhalten. Die Transaktionsdauer ist abhängig von den gewählten Währungen und ihren jeweiligen Blockchains.</0>",
+    "ans5":
+      "<0>So nutzen Sie die Börse:</0><1><0><0>Geben</0> Sie den gewünschten <2>Betrag ein, wählen Sie</2> die Währung, die Sie <4>ausgeben möchten</4>, und die Währung, die Sie <6>kaufen möchten</6> (wenn Sie z.B. 1 BTC ausgeben möchten, um ETH zu kaufen bei der angegebenen Umtauschrate, geben Sie “1” und drücken auf “STARTEN”)<8></8></0><1><0>Geben Sie Ihre Zieladresse ein</0> (wenn Sie z.B. ETH kaufen, geben Sie die Adresse Ihres ETH-Portemonnaies ein)<2></2></1><2>Sie werden aufgefordert, Ihre Coins an eine  <3>bestimmte Adresse</3> zu <1>schicken</1>.<5></5></2><3>Sobald wir Ihre Coins erhalten, beginnt die Ausführung Ihres Auftrags.</3><4>Sobald alles erledigt ist, werden Sie Ihre ETH erhalten. Hurra! Sie haben soeben erfolgreich Ihre Kryptowährung umgetauscht.</4></1><2>Sobald Sie für Ihren Auftrag bezahlt haben, kann er nicht rückgängig gemacht werden. Bitte gehen Sie sicher, dass Sie die korrekte Adresse angegeben haben.</2>",
+    "ans6":
+      "<0>Für Bestellung die nur Kryptowährungen austauschen, sammeln oder speichern wir keine privaten Informationen über Sie. Der Prozess ist völlig anonym. Für FIAT-Bestellungen (USD, GBP, EUR usw.) erfüllen wir strenge Anforderungen gemäß den besten KYC / AML-Standards.</0>",
+    "ans8":
+      "<0>Nein, unsere Lösung ist komplett unabhängig. Wir benutzen unsere internen Coin-Reserven, um Liquidität bereitzustellen.</0>",
+    "ans9":
+      "<0>Wir bieten derzeit kein Hosting für Portemonnaies. Der Umtausch findet zwischen zwei Ihrer Portemonnaies statt:</0><1><0>das Portemonnaie, von dem Sie Gelder (<1>Ausgabe</1> Portemonnaie)</0><1>Das Portemonnaie, auf dem Sie Gelder erhalten (<1>Eingang</1> Portemonnaie)</1></1><2>Sobald die Transaktion ausgeführt wurde, sind Sie für die Saldo-Sicherheit Ihrer Portemonnaies verantwortlich.</2>",
+    "ans10":
+      "<0>Jeder Auftrag hat eine einzigartige Nummer, wie:</0><1></1><2>Gehen Sie sicher, dass Sie Ihre Auftragsnummer festhalten. Wir empfehlen, die Seite als Lesezeichen zu speichern, damit Sie später jederzeit zurückkehren können.</2><3>Wenn Sie die Kryptowährung abgeschickt haben und die Verbindung verlieren, das Fenster schließen oder die Seite verlassen, ist die Transaktion davon nicht betroffen.</3><4>Wenn Sie Hilfe möchten, kontaktieren Sie uns gerne.</4>",
+    "ans11":
+      "<0>Wenn Sie einen Auftrag aufgeben, wird automatisch ein Empfehlungscode für Sie generiert.</0><1>Die Derzeitigen Bedingungen für das Empfehlungsprogramm sind wie folgt:</1><2><0> Wir zahlen die Hälfte unserer Einnahmen an unsere Empfehler. Ein Virtel der Einnahmen an Empfehler zweiten Grades und ein Achtel der Einnahmen an Empfehler dritten Grades.</0><1>Wir senden Empfehlungsauszahlungen, sobald das Guthaben auf Ihrem Konto den Schwellenwert erreicht. Der Schwellenbetrag beträgt in der Regel das 10-fache des Mindestbestellbetrags (keine Tx-Gebühr), kann jedoch nach unten angepasst werden. In diesem Fall müssten Sie die Tx-Gebühr selbst übernehmen.</1><2>Sie werden Ihre Gelder erhalten an der im Auftrag angegebenen Abhebe-Adresse.</2><3>Wenn Sie die Abhebe-Adresse oder die bevorzugte Währung ändern möchten, benachrichtigen Sie bitte den Kundendienst, und wir werden uns darum kümmern.</3></2><3>Diese Angaben können sich jederzeit ändern.</3>",
+    "ans12":
+      "<0>Es gibt ein Zeitfenster von 15 Minuten zwischen dem Öffnen dem Aufrufen des Auftrags und unserer Feststellung, dass Sie Coins in die Blockchain geschickt haben. Während dieses Zeitintervals frieren wir effektiv den Preis Ihres Auftrags ein.</0><1>Wenn sich das 15-Minuten Zeitfenster schließt, wird der Auftrag abgebrochen, da der Preis verfallen ist und erneut berechnet werden muss.</1><2>Wenn Sie Ihre Gelder nicht rechtzeitig abgeschickt haben, geben Sie einfach einen neuen Auftrag auf.</2><3>Wenn Sie Ihre Gelder rechtzeitig abgeschickt haben, aber aus irgendeinem Grund nicht festgestellt wurden, kontaktieren Sie uns über den Kundendienst-Chat, und wir werden Ihnen aushelfen.</3>",
+    "ans13":
+      "<0>Ja. Promoten Sie den Austausch auf sozialen Medien (wie Twitter). Wir würden Ihnen 1000 HTH für jedes Retweet von einem legitimen, echten Account mit über 500 Followern und 100 HTH für jedes like von einem Account mit den gleichen Kriterien zahlen.</0><1><0>Wir behalten uns das Recht vor, den Bonus aus Gründen, die wir für richtig halten, abzulehnen.</0></1>",
+    "ans14":
+      "<0>Um HTHWorld zu nutzen, benötigen Sie Ihre eigene Wallet. Der Hauptvorteil dieser Funktion besteht darin, dass wir Ihre Coins nicht aufbewahren, und Sie dadurch zu jeder Zeit die Kontrolle über Ihre Bestände bewahren.</0><1>Wenn Sie Hilfe benötigen, um eine Wallet in der gewünschten Kryptowährung zu erhalten, schauen Sie bitte hier </1><2><0>Bitcoin (BTC). <1>https.//bitcoin.org/en/choose-your-wallet</1></0><1>Ethereum (ETH). <1>https.//github.com/ethereum/mist/releases</1></1><2>Litecoin (LTC). <1>https.//litecoin.org/</1></2></2><3>Bitte beachten Sie, dass wir mit den oben angegebenen Webseiten in keiner Verbindung stehen, diese Links dienen ausschließlich als Nutzer-Referenz. Wir werden keine Haftung, Verpflichtung oder Verantwortung für Inhalte externer Webseiten übernehmen.</3>"
+  },
+  "loading": "Lade",
+  "privacy": {
+    "title": "Datenschutz",
+    "updated": "<0>Letztes Update <1>9. August, 2017</1></0>",
+    "p1":
+      "<0>Diese Datenschutzerklärung erläutert, wie ”HTHWorld.” sowie seine hundertprozentigen Tochtergesellschaften (zusammenfassend ”HTHWorld”. wir oder uns) Ihre Informationen sammelt, nutzt, offenlegt und schützt. Diese Erklärung betrifft durch uns gesammelte Informationen, die anfallen, wenn Sie unsere ”HTHWorld.” Webseite und Mobilanwendungen (zusammenfassend HTHWorld-Dienste) aufrufen und nutzen oder anderweitig mit uns wie im Folgenden beschrieben interagieren. ”HTHWorld” stellt ”HTHWorld.” Dienste mittels lokal operierender Körperschaften, die hundertprozentige Tochtergesellschaften von ”HTHWorld” (je ein ”HTHWorld.”- Unternehmen) sind, bereit. Um festzustellen, welches ”HTHWorld.” Unternehmen Ihre Informationen sammelt und für die Verarbeitung Ihrer Daten verantwortlich ist.</0>",
+    "p2":
+      "<0>Wir behalten uns das Recht vor, diese Datenschutzerklärung bei Gelegenheit zu ändern. Sofern wir Änderungen vornehmen, werden wir Sie durch Revision des oben angegebenen Datums informieren oder Sie in manchen Fällen zusätzlich benachrichtigen, beispielsweise durch Hinzufügen einer Stellungnahme auf der Homepage von ”HTHWorld.” Dienstleistungen oder durch Benachrichtigung via E-Mail. Wir raten Ihnen nachdrücklich, diese Datenschutzerklärung jederzeit zu überprüfen, wenn Sie ”HTHWorld.” Dienstleistungen aufrufen oder benutzen, um sich über unsere Informationspraxis sowie Rechte und Optionen bezüglich Ihres Datenschutzes zu informieren.</0>",
+    "collectinfo": "<0>Sammlung von Informationen</0>",
+    "infoyou":
+      "<0>Informationen, die Sie uns bereitstellen</0><1>Wir sammeln Informationen, die Sie uns unmittelbar bereitstellen Wir sammeln beispielsweise Informationen über Sie, wenn Sie ein Onlinekonto einrichten, eine Transaktion ausführen, ein Formular ausfüllen, Umfragen beantworten, Inhalte auf unseren Foren oder Wikis verfassen oder anderweitig mit uns kommunizieren.</1><2>Folgende Arten von Informationen können wir sammeln:</2><3><0>Kontaktdaten wie Name, Briefanschrfit, Telefonnummer und E-Mail-Adresse. Finanzinformationen wie Kontonummern, Kreditkartennummern und Kontoinformationen für virtuelle Währungen.</0><1>Offizielle Identifikationsnummern wie Sozialversicherungsnummer oder behördliche Identifikationsnummern.</1><2>Biografische oder demografische Informationen wie Ihr Geburtsdatum, Geschlecht, Beschäftigung, Beschäftigungsstatus und jegliche Information, die Sie uns freiwillig bereitstellen.</2></3>",
+    "infosources":
+      "<0>Informationen, die wir mittels unserer Quellen sammeln</0><1>Wir können zudem Informationen von anderen Quellen beziehen und diese Informationen kombinieren, die wir mittels ”HTHWorld.” Dienstleistungen sammeln. Beispielsweise können wir nicht-öffentliche, persönliche Informationen über Sie durch Dritte, inklusive Identitätsfeststellungsdienste.</1>",
+    "infoauto":
+      "<0>Informationen, die wir automatisch sammeln</0><1>Wenn Sie ”HTHWorld.” Dienstleistungen aufrufen oder benutzen, sammeln wir automatisch Informationen wie folgt:</1><2>Transaktionsinformationen: wir sammeln Informationen über Transaktionen, die Sie via ”HTHWorld.” Dienstleistungen ausführen, inklusive des Buchwerts der jeweiligen Transaktion, der Art der ausgeführten Transaktion und anderer Transaktionsinformationen.</2><3>Standortinformationen: mit Ihrer zuvorigen Zustimmung können wir präzise Standortinformationen Ihres mobilen Geräts sammeln, wenn Sie unsere Mobilanwendungen aufrufen oder benutzen. Für weitere Details sehen Sie bitte unten Ihre Optionen ein.</3><4>Geräte- und Protokoll-Informationen: wir sammeln Informationen über den Computer oder das mobile Gerät, mit dem Sie ”HTHWorld.” Dienstleistungen aufrufen, inklusive Gerätekennung, Funknetzinformationen, Art des Betriebssystems und Art des verwendeten Browsers. Wir protokollieren ebenfalls Informationen über Ihre Nutzung von ”YHTHWorld.” Dienstleistungen, inklusive Zugriffszeit, besuchter Seiten, IP-Adresse, anderer üblicher Web-Protokolldaten sowie vor und nach Aufruf unser Webseite besuchter Seiten.</4><5>Cookies und andere Tracking-Technologien: wir können Cookies, Zählpixel, Web-Wanzen und andere Tracking-Technologien benutzen um Informationen über Sie zu sammeln, während Sie ”HTHWorld.” Dienstleistungen besuchen, inklusive Informationen über Surfverhalten auf ”HTHWorld.” Dienstleistungen. Cookies sind kleine Dateien, die von unseren Webservern an Ihren Computer oder mobiles Gerät gesendet werden und uns erlauben, beispielsweise festzuhalten, wie Sie zu ”HTHWorld.” Dienstleistungen gelangen, wann Sie zurückkehren welche Seiten Sie auf ”HTHWorld.” Dienstleistungen besuchen und festzustellen, dass Sie bereits eingeloggt sind, wenn wir eine Seitenanforderung von Ihrem Browser erhalten.</5>",
+    "useinfo":
+      "<0>Nutzung der Informationen</0><1>Wir können Ihre Informationen wie folgt benutzen: </1><2><0>Bereitstellung von ”HTHWorld.” Dienstleistungen und Support;</0><1>Ausführung von Transaktionen und Benachrichtigung über Ihre Transaktionen;</1><2>Management Ihres Kontos (oder Ihrer Konten) und Übermittlung von technischen Hinweisen, Updates, Sicherheitswarnungen sowie von Mitteilungen bezüglich Support und Verwaltung;</2><3>Beilegung von Streitfällen, Gebühreneintreibung und Problembehandlung;</3><4>Unterdrückung eventuell verbotener oder illegaler Aktivitäten und Durchsetzung unsere Nutzungsvereinbarung;</4><5>Personalisierung, Bewertung und Verbesserung von ”HTHWorld.” Dienstleistungen;</5><6>Bereitstellung von Marketing- und Werbeangeboten im Auftrag von ”HTHWorld.” und anderen, inklusive SMS, Sprachanrufs oder E-Mail;</6><7>Verknüpfung oder Kombination Ihrer persönlichen Informationen mit Informationen, die wir von anderen erhalten haben, um Ihre Bedürfnisse zu verstehen und Sie mit einem besseren Service zu versorgen;</7><8>Verfolgung jeglicher anderer Zwecke, zu welchen die jeweiligen Informationen gesammelt wurden, in dem Umfang, da solche Zwecke zwangsläufig durch die Sammlung entsprechender Informationen gegeben sind oder entsprechend anderer Vermerke in den ”HTHWorld.” Dienstleistungen zum Zeitpunkt der Sammlung.</8></2>",
+    "processinfo":
+      "<0>Informationsverarbeitung</0><1>Indem Sie ”HTHWorld.” Dienstleistungen aufrufen, benutzen oder uns anderweitig Informationen bereitstellen, stimmen Sie überein, dass diese Informationen in die USA und andere Länder übertragen und dort verarbeitet werden. Bitte sehen Sie den untenstehenden Abschnitt zur US - EU / Schweiz Safe Harbor Abkommen ein, wenn Sie wohnhaft in der Europäischen Union oder der Schweiz sind.</1>",
+    "disclosure":
+      "<0>Offenlegung von Informationen</0><1>Wir können Informationen, die wir über Sie gesammelt haben, gegenüber ”HTHWorld.”, welche Informationen im Auftrag aller ”HTHWorld.” verarbeitet, gegenüber unabhängigen Dritten, inklusive nichtfinanzieller Unternehmen wie E-Mail-Anbieter und Betrugsprüfdienste, und gegenüber anderen, wie anderen ”HTHWorld.” Nutzern, mit denen Sie Transaktionen vollführen, offenlegen, unabhängig davon, ob Sie ein derzeitiger oder ehemaliger Kunde sind, inklusive nichtöffentlicher persönlicher Informationen und jeglicher anderer durch uns gesammelte Informationen. Wir können folgende Offenlegungen vornehmen:</1><2><0>Gegenüber Dienstanbietern, die in unserem Auftrag Marketing-Dienste ausführen, und</0><1>Für unsere täglichen Geschäftszwecke, um Transaktionen durchzuführen, Konten zu warten, auf gerichtliche Anordnungen oder gerichtliche Untersuchungen zu reagieren oder an Auskunfteien zu berichten. In Verbindung mit unseren täglichen Geschäftszwecken können wir beispielsweise Informationen über Sie wie folgt teilen:</1><2><0>Mit jeglicher Partei, an die Sie via „HTHWorld.“ Dienstleistungen Geldmittel überweisen möchten oder die an Sie Geldmittel überweisen möchte, inklusive Informationen darüber, ob Ihr Konto aktiv ist und ob Ihr Konto bestätigt wurde.</0><1>Mit Anbietern, Beratern und anderen Dienstleistern, die Zugang zu Ihren Informationen benötigen, um Arbeit in unserem Auftrag zu verrichten. Diese Dienstleister helfen unserem Geschäft durch Betrugsprävention und Technologiedienstleistungen.</1><2>Wenn wir nach unserem alleinigem Ermessen glauben, dass die Offenlegung Ihrer Informationen notwendig ist, um körperlichen Schaden oder finanziellen Verlust zu verhindern, um illegale Aktivitäten anzuzeigen oder Verletzungen der Nutzungsvereinbarung oder anderer Richtlinien und Vereinbarungen zu untersuchen und deren Durchsetzung zu erwirken.</2><3>In Verbindung mit oder während Verhandlungen über Fusion, Verkauf von „HTHWorld.“ Vermögen, Finanzierung oder der ganzen oder teilweisen Übernahme unseres Geschäfts durch ein anderes Unternehmen. Mit Ihrer Zustimmung oder auf Ihre Aufforderung hin.</3><4>Wenn Sie verpflichtet sind, Ihre Informationen offenzulegen oder zu teilen, um unsere gesetzlichen Pflichten zu befolgen. Abgesehen von Fusion, Verkauf von „HTHWorld.“ Vermögen, Finanzierung oder Übernahme werden wir keine Ihrer Informationen an Dritte zu eigenen Marketing-Zwecken verkaufen oder verleihen.</4></2></2><3>Bitte beachten Sie, dass Dritte, die unsere Kundenidentifikation und Betrugsbekämpfungskontrollen unterstützen, Informationen über Sie einbehalten und benutzen können, um in unserem Auftrag Dienstleistungen auszuführen und Ihre eigenen Dienstleistungen zu verbessern. Durch Nutzung unserer Dienstleistungen stimmen Sie der Aufbewahrung und Nutzung solcher Informationen durch diese Anbieter zur Verbesserung Ihrer Dienstleistungen zu.</3><4>Wir können ebenfalls aggregierte oder unkenntliche Informationen, die nicht begründbar mit Ihnen identifiziert werden können, mit unseren Tochtergesellschaften oder unabhängigen Dritten teilen.</4>",
+    "analytics":
+      "<0>Analysedienste von Drittanbietern</0><1>Wir gestatten anderen Körperschaften, Analysedienste in unserem Auftrag bereitzustellen. Diese Körperschaften können Cookies, Web-Wanzen und andere Tracking-Technologien einsetzen, um Informationen über Ihre Nutzung von „HTHWorld.“ Dienstleistungen, inklusive IP-Adresse, Webbrowser, besuchter Seiten, auf Seiten verbrachte Zeit und geklickter Links, zu sammeln. Diese Informationen können durch „HTHWorld.“ unter anderem dazu benutzt werden, um Daten zu analysieren und zu verfolgen, die Beliebtheit gewisser Inhalte festzustellen und Ihre Online-Aktivität besser zu verstehen.</1>",
+    "security":
+      "<0>Sicherheit</0><1>Wir implementieren angemessene Sicherheitsvorkehrungen und Sicherheitsmaßnahmen, um zu helfen, die Vertraulichkeit und Sicherheit Ihrer Informationen, inklusive jeglicher nichtöffentlicher persönlicher Informationen, zu schützen. Wir schützen Ihre Informationen durch Anwendung angemessener physischer, technischer und verwaltungstechnischer Maßnahmen, inklusive durch Begrenzung des Zugriffs auf Ihre Informationen durch Mitarbeiter mit dem Bedarf an diesen Informationen. US - EU / Schweiz Safe Harbor Abkommen</1><2>„HTHWorld.“ entspricht dem wie durch das US Handelsministerium dargelegten US - EU Safe Harbor Framework und dem US - Schweiz Safe Harbor Framework bezüglicher der Sammlung, Nutzung und Aufbewahrung persönlicher Informationen aus Mitgliedsländern der Europäischen Union und der Schweiz. „HTHWorld.“ hat bestätigt, dass es an den Safe Harbor Privacy Principles zu Benachrichtigung, Auswahl, Weiterleitung, Sicherheit, Datenintegrität, Zugriff und Durchsetzung festhält. Um mehr über das Safe Harbor Programm zu lernen und die „HTHWorld.“ Bestätigung einzusehen, besuchen Sie bitte http://www.export.gov/safeharbor/</2><3>Wenn Sie eine Beschwerde bezüglich der Erfüllung des US - EU Safe Harbor Framework oder des US - Schweiz Safe Harbour Framework durch „HTHWorld.“ haben, kontaktieren Sie uns bitte zuerste unter support@n.exchange. „HTHWorld.“ hat sich für die Anwendung von JAMS Schiedsverfahren als einem unabhängigen Rechtsmittel zur Beilegung offener Beschwerden bezüglich der „HTHWorld.“ Safe Harbor Verpflichtung entschieden. Bitte sehen Sie Abschnitt mit dem Titel „Anwendbares Recht; Schiedsverfahren“ in unseren Nutzungsbedingungen ein /en/articles/legal_privacy</3>",
+    "choices":
+      "<0>Ihre Optionen</0><1>Kontoinformationen: Sie dürfen jederzeit auf Ihre Online-Kontoinformationen zugreifen und diese überprüfen und aktualisieren, indem Sie sich in Ihr Konto einloggen und Ihre Profil einsehen. Wenn Sie Ihr Konto auflösen möchten, kontaktieren Sie uns bitte unter support@n.exchange. Bitte beachten Sie in jedem Fall, dass wir nach Auflösung Ihres Kontos Ihre Informationen gemäß Gesetz oder unserer legitimen Geschäftsinteressen aufbewahren können, um ausstehende Gebühren einzutreiben, Streitfälle beizulegen, Probleme zu beheben, bei Ermittlungen zu unterstützen, Betrug zu bekämpfen oder unsere Nutzungsvereinbarungen durchzusetzen.</1><2>Mitteilungseinstellungen: Sie können sich vom Erhalt von Werbenachrichten seitens „HTHWorld.“ abmelden, indem Sie den Anweisungen in diesen Mitteilungen folgen. Sie können sich auch vom Erhalt des HTHWorld  Newsletters oder gewisser administrativer E-Mails abmelden, indem Sie Ihre Mitteilungseinstellungen über die Einstellungen-Funktion Ihres Onlinekontos anpassen. Wenn Sie sich vom Erhalt von Werbenachrichten abmelden, können wir Ihnen nach wie vor Transaktions- oder Beziehungsnachrichten, beispielsweise solche zu Ihrem Konto oder laufenden Geschäftsbeziehungen, zuschicken.</2><3>Standort: Unsere Mobilanwendungen können mit Ihrer zuvorigen Zustimmung präzise Standortinformationen Ihres mobilen Geräts sammeln. Wenn Sie anfänglich dem Sammeln von Standortinformationen durch uns zustimmen, können Sie nachträglich die Sammlung dieser Informationen über die Systemeinstellungen Ihres Geräts stoppen. Sie können die Sammlung von Standortinformationen durch uns auch stoppen, indem Sie dem gewöhnlichen Deinstallationsprozess folgen, um unsere Mobilanwendung von Ihrem Gerät zu entfernen.</3><4>Cookies: Wir benutzen Sitzungscookies und permanente Cookies. Sitzungscookies verfallen, wenn Sie sich von Ihrem Konto abmelden oder den Browser schließen. Permanente Cookies bleiben auf Ihrem Computer oder mobilen Gerät bis Sie sie selbst löschen oder verfallen. Die meisten Webbrowser akzeptieren standardmäßig Cookies. Es steht Ihnen frei, die meisten unserer Cookies abzulehnen, sofern Ihre Browser oder Ihre Browser Add-Ons gestatten, wobei das Entfernen oder Deaktivieren von Cookies die Nutzung und Funktionsvielfalt von „HTHWorld.“ Dienstleistungen beeinträchtigen kann. Zusätzlich können wir gewisse Cookies verwenden, die nicht von Ihren Browser-Einstellungen betroffen werden, wobei wir diese Cookies ausschließlich zur Identitätsbestätigung und Betrugsprävention verwenden. Für weitere Informationen über Cookies, und wie man Sie blockiert, löscht oder deaktiviert, sehen Sie bitte Ihre Browser-Anweisung ein oder kontaktieren Sie uns unter support@hthcoin.world.</4>",
+    "optout":
+      "<0>Warum kann ich von keiner Weiterleitung abmelden?</0><1>Wir betreiben keine Weiterleitung, die uns verpflichten würde, Sie mit einer Option zur Abmeldung von einer solchen Weiterleitung auszustatten. Wir leiten beispielsweise keinerlei Informationen über Sie an Dritten zu deren eigenen Marketing-Zwecken weiter.</1>",
+    "access":
+      "<0>Zugriff auf Informationen</0><1>Sie haben das Recht, auf die Informationen, die wir über Sie aufbewahren, zu zugreifen. Wir können Sie um eine Gebühr bitten, bevor wir Sie mit diesen Informationen versorgen.</1>",
+    "contact":
+      "<0>Kontakt</0><1>Wenn Sie irgendwelche Fragen oder Bedenken bezüglich dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter  <1>support@hthcoin.world</1>.</1>"
+  },
+  "error": {
+    "warning": "Warnung",
+    "loading": "Entschuldigen Sie, beim Laden der Seite trat ein Problem auf :(",
+    "notfound": "Seite nicht gefunden :(",
+    "invalidpair": "Sie können nicht",
+    "nousedeposit": "Sie können",
+    "nousedeposit2": "nich als deposit coin nutzen. Bitte nehmen Sie einen anderen.",
+    "with": "mit",
+    "try": "Probieren Sie",
+    "novalid": "ist keine gültige",
+    "providevalid": "Bitte benutzen Sie eine gültige"
+  }
+}

@@ -1,0 +1,17 @@
+.label.label.label {
+  margin-bottom: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $green;
+
+  @media (min-width: $screen-md-min) {
+    margin-bottom: 36px;
+  }
+}
+
+.input.input.input {
+  padding: 0 0 15px 120px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
