@@ -121,7 +121,7 @@ class RecentOrders extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-xs-12">
-                  <h2 className="title">{t('Recent Transactions')}</h2>
+                  <h2 className="title"><p><span className="text-green">{t('Recent Transactions')}</span></p></h2>
                   <div className="recent-orders-container">{orders.length < 1 ? <LoadingComponent isLoading={true} /> : orders}</div>
                 </div>
               </div>

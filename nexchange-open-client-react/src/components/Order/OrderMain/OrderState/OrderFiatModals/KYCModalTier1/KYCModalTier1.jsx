@@ -14,8 +14,8 @@ class KYCModal extends Component {
       filesReady: false,
       selfie: '',
       residenceProof: '',
-      title: i18n.t('order.fiat.kyc.3'),
-      buttonText: i18n.t('order.fiat.kyc.4'),
+      title: i18n.t('Fiat Order'),
+      buttonText: i18n.t('Order'),
       titleClass: '',
       message: '',
     };
@@ -41,9 +41,9 @@ class KYCModal extends Component {
     this.setState({
       filesReady: false,
       selfie: '',
-      title: i18n.t('order.fiat.kyc.3'),
+      title: i18n.t('Fiat Order'),
       titleClass: '',
-      buttonText: i18n.t('order.fiat.kyc.4'),
+      buttonText: i18n.t('Order'),
       message: '',
     });
   }
@@ -52,9 +52,9 @@ class KYCModal extends Component {
     event.preventDefault();
 
     this.setState({
-      title: i18n.t('order.fiat.kyc.uploading'),
+      title: i18n.t('Order Uploading'),
       titleClass: 'warning',
-      buttonText: i18n.t('order.fiat.kyc.uploading'),
+      buttonText: i18n.t('Upload'),
       filesReady: false,
     });
 
@@ -76,9 +76,9 @@ class KYCModal extends Component {
       })
       .then(response => {
         this.setState({
-          title: i18n.t('order.fiat.kyc.status7'),
+          title: i18n.t('Fiat Order'),
           titleClass: 'green',
-          buttonText: i18n.t('order.fiat.kyc.5'),
+          buttonText: i18n.t('Order'),
           filesReady: false,
         });
 
@@ -88,9 +88,9 @@ class KYCModal extends Component {
       })
       .catch(error => {
         this.setState({
-          title: i18n.t('order.fiat.kyc.status8'),
+          title: i18n.t('Fiat Order'),
           titleClass: 'danger',
-          buttonText: i18n.t('order.fiat.kyc.4'),
+          buttonText: i18n.t('Order'),
         });
       });
   }
@@ -128,7 +128,7 @@ class KYCModal extends Component {
             <h4 className={`modal-title text-${this.state.titleClass}`}>{this.state.title}</h4>
             <h5 style={{ marginBottom: 0 }}>
               <b>
-                {t('order.fiat.tier.explanation')}
+                {t('Tier Explanation')}
               </b>
             </h5>
           </div>
@@ -137,9 +137,9 @@ class KYCModal extends Component {
             <form onSubmit={this.handleSubmit}>
               {this.props.kyc.selfie_document_status !== 'APPROVED' && (
                 <div style={{ marginBottom: 45 }}>
-                  <h2>{t('order.fiat.tier.selfie')}</h2>
+                  <h2>{t('Tier Selfie')}</h2>
                   <small>
-                    {t('order.fiat.tier.selfieexplanation')}
+                    {t('Selfie Explanation')}
                   </small>
                   <input type="file" name="selfie" id="selfie" onChange={this.handleInputChange} accept="image/*" />
                 </div>
@@ -148,7 +148,7 @@ class KYCModal extends Component {
               <textarea
                 name="message"
                 className="form-control"
-                placeholder={t('order.fiat.kyc.msg')}
+                placeholder={t('Message')}
                 rows="2"
                 onChange={this.handleInputChange}
                 value={this.state.message}

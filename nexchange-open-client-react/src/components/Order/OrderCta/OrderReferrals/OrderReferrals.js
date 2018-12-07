@@ -6,11 +6,14 @@ import Man from './images/man.png';
 import styles from '../OrderCta.scss';
 import { I18n, Interpolate } from 'react-i18next';
 
+
 class OrderReferrals extends Component {
   state = {
     showTermsModal: false,
     tooltipOpen: false,
     link: `${config.DOMAIN}/?ref=${this.props.order.referral_code[0].code}`,
+    
+   
   };
 
   triggerCopyTooltip = () => {
@@ -21,7 +24,7 @@ class OrderReferrals extends Component {
 
     $('#copy-to-clipboard-link')
       .tooltip('hide')
-      .attr('data-original-title', 'Link copied')
+      .attr('data-original-title', 'Link Copied')
       .tooltip('show');
 
     setTimeout(() => {
@@ -86,7 +89,7 @@ class OrderReferrals extends Component {
                     });
                   }}
                 >
-                  {t('referral.copylink')}
+                {t('Referral Link')}
                 </button>
               </CopyToClipboard>
 
@@ -121,21 +124,7 @@ class OrderReferrals extends Component {
                   >
                     <i className="fab fa-twitter" aria-hidden="true" />
                   </a>
-                  <a
-                    className={styles.link}
-                    href={`https://www.linkedin.com/shareArticle?mini=true&url=${this.state.link}`}
-                    target="_blank"
-                    onClick={() => {
-                      window.ga('send', 'event', {
-                        eventCategory: 'Referrals',
-                        eventAction: 'Social click',
-                        eventValue: 'linkedin',
-                      });
-                    }}
-                  >
-                    <i className="fab fa-linkedin-in" aria-hidden="true" />
-                  </a>
-                </div>
+                   </div>
               </h4>
             </div>
           </div>
@@ -157,7 +146,7 @@ class OrderReferrals extends Component {
 
                 <div className={`col-xs-12 col-sm-7 ${styles.text}`}>
                   <h2 className={styles.title}>
-                    <Interpolate i18nKey="referral.affiliate2" selectedCoin={this.props.order.pair.base.name} />
+                    <Interpolate i18nKey="Referrals" selectedCoin={this.props.order.pair.base.name} />
                   </h2>
                   {this.renderForm()}
                 </div>
@@ -172,7 +161,7 @@ class OrderReferrals extends Component {
           </div>
         )}
       </I18n>
-    );
+    ); 
   }
 }
 

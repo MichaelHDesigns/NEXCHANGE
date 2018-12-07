@@ -80,7 +80,7 @@ class CoinInput extends PureComponent {
           <div className="col-xs-12 col-sm-6">
             <form className="form-group" onSubmit={this.handleSubmit}>
               <label htmlFor={this.props.type} className={styles.label}>
-                {t('order.' + this.props.type)}
+                {t('' + this.props.type)}
               </label>
               <input
                 type="text"

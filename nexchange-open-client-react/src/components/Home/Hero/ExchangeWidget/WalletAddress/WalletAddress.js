@@ -32,7 +32,7 @@ class WalletAddress extends Component {
       () =>
         this.props.errorAlert({
           show: true,
-          message: `${address} ${i18n.t('error.novalid')} ${this.props.selectedCoin.receive} ${i18n.t('generalterms.address')}.`,
+          message: `${address} ${i18n.t('error.novalid')} ${this.props.selectedCoin.receive} ${i18n.t('Address')}.`,
         }),
       () => this.props.errorAlert({ show: false })
     );

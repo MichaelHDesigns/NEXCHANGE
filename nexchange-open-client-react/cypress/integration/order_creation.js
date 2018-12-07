@@ -2,7 +2,7 @@ import orderFiat from '../../src/__mocks__/orderFiat';
 import orderCrypto from '../../src/__mocks__/orderCrypto';
 
 describe('Order creation', function() {
-  it('creates XVGEUR (fiat) order and gets redirected to order page', function() {
+  it('creates HTHEUR (fiat) order and gets redirected to order page', function() {
     cy.server();
     cy.route({
       method: 'POST',
@@ -16,7 +16,7 @@ describe('Order creation', function() {
       response: orderFiat,
     });
 
-    cy.visit('http://localhost:3000?pair=BTCETH');
+    cy.visit('http://localhost:3000?pair=BTCHTH');
 
     cy.get('.selectedCoin-deposit').click();
 
@@ -27,15 +27,15 @@ describe('Order creation', function() {
     cy.get('.selectedCoin-receive').click();
 
     cy.get('.coin-currency-dropdown')
-      .contains('XVG')
+      .contains('HTH')
       .click();
 
-    cy.get('#withdraw-addr').type('DLCw22a8B8Roetqp2t2q7zop8SYZp9wY5E');
+    cy.get('#withdraw-addr').type('HN83aKuX7KfqJintLk4QYLYKMn2jiiABhZ');
 
     cy.get('.proceed').click();
   });
 
-  it('creates XVGBTC (crypto) order and gets redirected to order page', function() {
+  it('creates HTHBTC (crypto) order and gets redirected to order page', function() {
     cy.server();
     cy.route({
       method: 'POST',
@@ -49,7 +49,7 @@ describe('Order creation', function() {
       response: orderCrypto,
     });
 
-    cy.visit('http://localhost:3000?pair=BTCETH');
+    cy.visit('http://localhost:3000?pair=BTCHTH');
 
     cy.get('.selectedCoin-deposit').click();
     cy.get('.coin-currency-dropdown')
@@ -58,10 +58,10 @@ describe('Order creation', function() {
 
     cy.get('.selectedCoin-receive').click();
     cy.get('.coin-currency-dropdown')
-      .contains('XVG')
+      .contains('HTH')
       .click();
 
-    cy.get('#withdraw-addr').type('DLCw22a8B8Roetqp2t2q7zop8SYZp9wY5E');
+    cy.get('#withdraw-addr').type('HN83aKuX7KfqJintLk4QYLYKMn2jiiABhZ');
 
     cy.get('.proceed').click();
   });

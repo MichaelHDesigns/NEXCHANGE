@@ -23,7 +23,7 @@ class OrderPaidCrypto extends Component {
           {t => (
             <div className={styles.container}>
               <OrderStateLoader />
-              <h2>{t('order.processing')}...</h2>
+              <h2>{t('Order Processing')}...</h2>
               <OrderLinks {...this.props} />
             </div>
           )}
@@ -36,8 +36,8 @@ class OrderPaidCrypto extends Component {
         {t => (
           <div className={styles.container}>
             <OrderCheckIcon />
-            <h2 className={styles.title}>{t('order.paid1')}</h2>
-            <h3 className={styles.subtitle}>{t('order.paid2')}</h3>
+            <h2 className={styles.title}>{t('Order Paid')}</h2>
+            <h3 className={styles.subtitle}>{t('')}</h3>
             <h3 className={styles.subtitle}>
               {t('order.txid')}:{' '}
               <a href={getBlockchainUrl(this.coin.code, this.txId)} target="_blank" className="text-green">

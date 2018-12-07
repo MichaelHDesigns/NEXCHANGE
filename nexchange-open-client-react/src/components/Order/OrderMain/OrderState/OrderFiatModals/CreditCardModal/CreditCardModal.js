@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
 import Cards from 'react-credit-cards';
 import 'react-credit-cards/lib/styles.scss';
@@ -95,7 +95,7 @@ class CreditCardModal extends Component {
             >
               <i className="material-icons">clear</i>
             </button>
-            <h4 className="modal-title">{t('status.pay')}</h4>
+            <h4 className="modal-title">{t('Status')}</h4>
           </div>
 
           <div className="modal-body">
@@ -128,7 +128,7 @@ class CreditCardModal extends Component {
                       type="text"
                       name="name"
                       className="form-control"
-                      placeholder={t('order.fiat.name')}
+                      placeholder={t('Name')}
                       onChange={this.handleInputChange}
                       value={this.state.name}
                       required
@@ -171,7 +171,7 @@ class CreditCardModal extends Component {
                           type="text"
                           name="expiry"
                           className="form-control"
-                          placeholder={'order.fiat.expirationformat'}
+                          placeholder={'Order Expiration'}
                           onChange={this.handleInputChange}
                           value={this.state.expiry}
                           required

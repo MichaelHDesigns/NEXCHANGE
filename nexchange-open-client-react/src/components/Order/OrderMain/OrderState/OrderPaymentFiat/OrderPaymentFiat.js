@@ -41,7 +41,7 @@ class OrderPayment extends Component {
         <I18n ns="translations">
         {(t) => (
         <div className="text-center order-status-section">
-          <h2>{t('order.fiat.kyc.statustitle')}...</h2>
+          <h2>{t('Fiat Order')}...</h2>
         </div>
         )}
         </I18n>
@@ -59,29 +59,29 @@ class OrderPayment extends Component {
       const { residence_document_status, id_document_status } = this.props.kyc;
 
       if (id_document_status === 'UNDEFINED' && residence_document_status === 'UNDEFINED') {
-        title = <h2 className={styles.title}>{i18n.t('order.fiat.status.2')}</h2>;
+        title = <h2 className={styles.title}>{i18n.t('')}</h2>;
         inner = (
           <div>
             <h3 className={styles.subtitle}>
-              {i18n.t('order.fiat.status.2')}
+              {i18n.t('')}
             </h3>
 
             <h3 className={styles.subtitle}>
               <b>
-                {i18n.t('order.fiat.status.7')}
+                {i18n.t('')}
               </b>
             </h3>
           </div>
         );
 
         modal = KYCModalTier0;
-        buttonText = i18n.t('order.fiat.kyc.3');
+        buttonText = i18n.t('Fiat Order');
         showInitial = true;
       } else {
         title = (
           <div>
             <OrderStateLoader />
-            <h2 className={styles.title}>{i18n.t('order.fiat.status.3')}</h2>
+            <h2 className={styles.title}>{i18n.t('Order Status')}</h2>
           </div>
         );
         inner = (
@@ -89,11 +89,11 @@ class OrderPayment extends Component {
             <h2 className={styles.title}>Approval status:</h2>
             <div className={styles.status}>
               <p>
-                <b>{i18n.t('order.fiat.kyc.1')}:</b> {id_document_status}
+                <b>{i18n.t('ID')}:</b> {id_document_status}
               </p>
               {/*
               <p>
-                <b>{i18n.t('order.fiat.kyc.2')}:</b> {residence_document_status}
+                <b>{i18n.t('Photo with Address')}:</b> {residence_document_status}
               </p>
               */}
             </div>
@@ -104,12 +104,12 @@ class OrderPayment extends Component {
         modal = KYCModalTier0;
 
         if (id_document_status === 'REJECTED' || residence_document_status === 'REJECTED') {
-          buttonText = i18n.t('order.fiat.kyc.retry');
+          buttonText = i18n.t('Try Again');
           showInitial = true;
         }
       }
     } else if (this.props.kyc.out_of_limit) {
-      title = <h2 className={styles.title}>{i18n.t('order.fiat.tier.limit')}</h2>;
+      title = <h2 className={styles.title}>{i18n.t('Fiat Tier Limit')}</h2>;
 
       const tier = this.props.kyc.limits_message.tier.name;
       const { selfie_document_status, whitelist_selfie_document_status } = this.props.kyc;
@@ -123,44 +123,44 @@ class OrderPayment extends Component {
           <div>
             <h3 className={styles.subtitle}>
               <b>
-                {i18n.t('order.fiat.tier.explanation')}
+                {i18n.t('Order Explanation')}
               </b>
             </h3>
           </div>
         );
 
         modal = tier === 'Tier 1' ? KYCModalTier1 : KYCModalTier2;
-        buttonText = i18n.t('order.fiat.kyc.3');
+        buttonText = i18n.t('Tier 1');
         showInitial = true;
       } else if (tier === 'Tier 3' && (withdrawAddressStatus !== 'PENDING' && withdrawAddressStatus !== 'REJECTED')) {
         inner = (
           <div>
             <h3 className={styles.subtitle}>
               <b>
-                {i18n.t('order.fiat.tier.explanation2')}
+                {i18n.t('')}
               </b>
             </h3>
           </div>
         );
 
         modal = KYCModalTier2;
-        buttonText = i18n.t('order.fiat.kyc.3');
+        buttonText = i18n.t('Tier 2');
         showInitial = true;
       } else {
         title = (
           <div>
             <OrderStateLoader />
-            <h2 className={styles.title}>{i18n.t('order.fiat.status.3')}</h2>
+            <h2 className={styles.title}>{i18n.t('Fiat Order')}</h2>
           </div>
         );
         inner = (
           <div>
-            <h2 className={styles.title}>{i18n.t('order.fiat.status.5')}:</h2>
+            <h2 className={styles.title}>{i18n.t('')}:</h2>
 
             {tier === 'Tier 1' && (
               <div className={styles.status}>
                 <p>
-                  <b>{i18n.t('order.fiat.tier.selfie')}:</b> {selfie_document_status}
+                  <b>{i18n.t('Selfie Photo')}:</b> {selfie_document_status}
                 </p>
               </div>
             )}
@@ -168,7 +168,7 @@ class OrderPayment extends Component {
             {(tier === 'Tier 2' || tier === 'Tier 3') && (
               <div className={styles.status}>
                 <p>
-                  <b>{i18n.t('order.fiat.tier.w_selfie')}:</b> {withdrawAddressStatus}
+                  <b>{i18n.t('Tier 2,3 Selfie Photo')}:</b> {withdrawAddressStatus}
                 </p>
               </div>
             )}
@@ -176,7 +176,7 @@ class OrderPayment extends Component {
         );
 
         if (selfie_document_status === 'REJECTED' || withdrawAddressStatus === 'REJECTED') {
-          buttonText = i18n.t('order.fiat.kyc.retry');
+          buttonText = i18n.t('Try Again');
           modal = tier === 'Tier 1' ? KYCModalTier1 : KYCModalTier2;
           showInitial = true;
         }
@@ -187,10 +187,10 @@ class OrderPayment extends Component {
       title = (
         <div>
           <OrderStateLoader />
-          <h2 className={styles.title}>{i18n.t('order.fiat.status.paid')}</h2>
+          <h2 className={styles.title}>{i18n.t('Order Paid')}</h2>
         </div>
       );
-      inner = <h3 className={styles.subtitle}>{i18n.t('order.fiat.status.success')}</h3>;
+      inner = <h3 className={styles.subtitle}>{i18n.t('Order Successful')}</h3>;
     }
 
     return (

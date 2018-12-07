@@ -7,9 +7,9 @@ const OrderRefunded = props => (
   <I18n ns="translations">
     {t => (
       <div id="order-failure" className="text-center">
-        <h2>{t('refund.9')}</h2>
+        <h2>{t('Refund')}</h2>
 
-        <Trans i18nKey="refund.10">
+        <Trans i18nKey="">
           <h5>
             Your order has been refunded. Please contact support at
             <a href={`mailto:${config.SUPPORT_EMAIL}`}>{config.SUPPORT_EMAIL}</a> for more information.

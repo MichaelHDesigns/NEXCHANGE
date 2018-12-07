@@ -1,16 +1,17 @@
 .container {
   text-align: center;
   padding-bottom: 5px;
+ background: #000;
 }
 
 .title {
   margin: 18px 0 0 0;
   font-size: 18px;
   font-weight: 400;
-  color: $black;
+  color: $green;
 
   span {
-    color: $gray;
+    color: $gold;
   }
 }
 
@@ -18,14 +19,14 @@
   margin: 12px 0;
   font-size: 14px;
   font-weight: 400;
-  color: $blue;
+  color: $gold;
 
   a {
-    font-weight: 500;
-    color: $blue;
+    font-weight: bold;
+    color: $green;
 
     &:hover {
-      color: $blue;
+      color: $green;
     }
   }
 }
@@ -64,12 +65,12 @@
   p {
     margin: 0;
     font-size: 15px;
-    font-weight: 400;
-    color: $blue;
+    font-weight: bold;
+    color: $gold;
 
     b {
-      font-weight: 500;
-      color: $blue;
+      font-weight: bold;
+      color: $green;
     }
   }
 }

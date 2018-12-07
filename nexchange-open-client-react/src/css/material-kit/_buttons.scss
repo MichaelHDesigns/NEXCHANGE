@@ -7,10 +7,10 @@
   margin: 10px 1px;
 
   font-size: $mdb-btn-font-size-base;
-  font-weight: 400;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0;
-
+  
   will-change: box-shadow, transform;
   transition: box-shadow 0.2s $mdb-animation-curve-fast-out-linear-in, background-color 0.2s $mdb-animation-curve-default;
 
@@ -20,10 +20,10 @@
 
   &,
   &.btn-default {
-    @include btn-styles($blue);
+    @include btn-styles(#000);
   }
   &.btn-primary {
-    @include btn-styles($green);
+    @include btn-styles(#000);
   }
   &.btn-success {
     @include btn-styles($brand-success);
@@ -42,7 +42,7 @@
     &:focus,
     &:hover {
       background-color: $white-color;
-      color: $gold;
+      color: $green;
     }
     &.btn-simple {
       color: #debf12;

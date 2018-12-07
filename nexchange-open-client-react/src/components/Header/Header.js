@@ -49,9 +49,9 @@ class Header extends Component {
                 <Link to="/">
                   <div className={styles['logo-container']}>
                     {window.location.pathname === '/' ? (
-                      <img src="/img/logo-transparent.png" alt="Logo" data-test="logo" />
+                      <img src="/img/logo.png" alt="Logo" data-test="logo" />
                     ) : (
-                      <img src="/img/logo.svg" alt="Logo" data-test="logo" />
+                      <img src="/img/logo.png" alt="Logo" data-test="logo" />
                     )}
                   </div>
                 </Link>
@@ -61,7 +61,7 @@ class Header extends Component {
                 <ul className="nav navbar-nav navbar-right">
                   <li>
                     <a className={styles.link} href="/#about">
-                     {t('About')}
+                     <span className="text-gold">{t('About')}</span>
                     </a>
                   </li>
 
@@ -82,16 +82,16 @@ class Header extends Component {
                   <li>
                     <a
                       className={`${styles.link} hidden-sm`}
-                      href="http://docs.nexchange2.apiary.io/"
+                      href="https://helpthehomelessworldwide.org"
                       target="_blank"
                       rel="noopener noreferrer"
-                      onClick={() => ga('send', 'event', 'General', 'api docs click')}
-                      data-test="api-link"
+                      onClick={() => ga('send', 'event', 'General', 'hthworld click')}
+                      data-test="partner-link"
                     >
-                      {t('API DOCS')}
+                       <span className="text-gold">{t('HTH Worldwide')}</span>
                     </a>
-                  </li>
-
+                  </li> 
+  
                   <li>
                     <a
                       className={styles.link}
@@ -99,7 +99,7 @@ class Header extends Component {
                       onClick={() => this.setState({ showSupportModal: true })}
                       data-test="support-btn"
                     >
-                      <span className="text-green">{t('Customer Support')}</span>
+                      <span className="text-green">{t('Support')}</span>
                     </a>
                   </li>
 

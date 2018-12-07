@@ -7,9 +7,9 @@ const OrderFailure = props => (
   <I18n ns="translations">
     {t => (
       <div id="order-failure" className="text-center">
-        <h2>{t('order.failure1')}</h2>
+        <h2>{t('Order Failed')}</h2>
         <h5>
-          {t('order.failure2')} <a href={`mailto:${config.SUPPORT_EMAIL}`}>{config.SUPPORT_EMAIL}.</a>
+          {t('Order Failed')} <a href={`mailto:${config.SUPPORT_EMAIL}`}>{config.SUPPORT_EMAIL}.</a>
         </h5>
 
         <OrderLinks {...props} />

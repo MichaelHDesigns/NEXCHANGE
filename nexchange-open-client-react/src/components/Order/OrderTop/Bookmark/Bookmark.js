@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import { Modal } from 'react-bootstrap';
 import { I18n } from 'react-i18next';
 import platform from 'platform';
@@ -49,7 +49,7 @@ class Bookmark extends Component {
                   <i className="material-icons">clear</i>
                 </button>
                 <h4 className="modal-title" data-toggle="tooltip" data-placement="top" data-original-title="Copy">
-                  {t('bookmark.0')}
+                  {t('Save Me!')}
                 </h4>
               </div>
 

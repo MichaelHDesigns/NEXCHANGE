@@ -19,8 +19,8 @@ class KYCModal extends Component {
       filesReady: false,
       governmentID: '',
       residenceProof: '',
-      title: i18n.t('order.fiat.kyc.3'),
-      buttonText: i18n.t('order.fiat.kyc.4'),
+      title: i18n.t('Fiat Order'),
+      buttonText: i18n.t('Order'),
       titleClass: '',
       email: '',
       message: '',
@@ -76,8 +76,8 @@ class KYCModal extends Component {
       filesReady: false,
       governmentID: '',
       residenceProof: '',
-      title: i18n.t('order.fiat.kyc.3'),
-      buttonText: i18n.t('order.fiat.kyc.4'),
+      title: i18n.t('Fiat Order'),
+      buttonText: i18n.t('Order'),
       titleClass: '',
       message: '',
     });
@@ -87,9 +87,9 @@ class KYCModal extends Component {
     event.preventDefault();
 
     this.setState({
-      title: i18n.t('order.fiat.kyc.uploading'),
+      title: i18n.t('Order Uploading'),
       titleClass: 'warning',
-      buttonText: i18n.t('order.fiat.kyc.uploading'),
+      buttonText: i18n.t('Upload'),
       filesReady: false,
     });
 
@@ -116,9 +116,9 @@ class KYCModal extends Component {
       })
       .then(response => {
         this.setState({
-          title: i18n.t('order.fiat.kyc.status7'),
+          title: i18n.t('Fiat Order'),
           titleClass: 'green',
-          buttonText: i18n.t('order.fiat.kyc.5'),
+          buttonText: i18n.t('Order'),
           filesReady: false,
         });
 
@@ -128,9 +128,9 @@ class KYCModal extends Component {
       })
       .catch(error => {
         this.setState({
-          title: i18n.t('order.fiat.kyc.status8'),
+          title: i18n.t('Fiat Order'),
           titleClass: 'danger',
-          buttonText: i18n.t('order.fiat.kyc.4'),
+          buttonText: i18n.t('Order'),
         });
       });
 
@@ -181,7 +181,7 @@ class KYCModal extends Component {
             <h4 className={`modal-title text-${this.state.titleClass}`}>{this.state.title}</h4>
             <h5 style={{ marginBottom: 0 }}>
               <b>
-                {t('order.fiat.tier.explanation')}
+                {t('Tier Explanation')}
               </b>
             </h5>
           </div>
@@ -199,7 +199,7 @@ class KYCModal extends Component {
               { !this.state.idApproved &&
               this.props.kyc.id_document_status !== 'APPROVED' && (
                 <div>
-                  <h2>{t('order.fiat.kyc.1')}</h2>
+                  <h2>{t('Fiat Order')}</h2>
                   <small>{t('order.fiat.kyc.govSelfieDesc')}</small>
                   <input type="file" name="governmentID" id="governmentID" onChange={this.handleInputChange} accept="image/*" />
                 </div>
@@ -208,7 +208,7 @@ class KYCModal extends Component {
               {/*
               {this.props.kyc.residence_document_status !== 'APPROVED' && (
                 <div>
-                  <h2>{t('order.fiat.kyc.2')}</h2>
+                  <h2>{t('Fiat Order')}</h2>
                   <small>
                       <div dangerouslySetInnerHTML={{__html: t('order.fiat.kyc.21')}} />
                   </small>
@@ -240,7 +240,7 @@ class KYCModal extends Component {
                     right: 7,
                     zIndex: 99999999,
                   }}
-                  data-original-title={t('order.fiat.kyc.6')}
+                  data-original-title={t('Fiat Order')}
                 />
               </div>
 
@@ -248,7 +248,7 @@ class KYCModal extends Component {
                 <input
                   name="phone"
                   className="form-control"
-                  placeholder={t('order.fiat.kyc.phone')}
+                  placeholder={t('Phone')}
                   rows="2"
                   onChange={this.handleInputChange}
                   value={this.state.phone}
@@ -259,7 +259,7 @@ class KYCModal extends Component {
               <textarea
                 name="message"
                 className="form-control"
-                placeholder={t('order.fiat.kyc.msg')}
+                placeholder={t('Message')}
                 rows="2"
                 onChange={this.handleInputChange}
                 value={this.state.message}

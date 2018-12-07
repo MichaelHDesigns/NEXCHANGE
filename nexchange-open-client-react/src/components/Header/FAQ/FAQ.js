@@ -30,22 +30,23 @@ class FAQ extends Component {
 
               <div className="modal-body">
                 <QuestionAnswer
-                  id="ques1"
+                  id="What is HTHWorld?"
                   answer={
-                    <Trans i18nKey="faq.ans1">
+                    <Trans i18nKey="ans1">
                       <div>
                         <p>
-                          N.exchange is an automated cryptocurrency exchange service, operated by
+                          HTHWorld is an Open Source automated cryptocurrency exchange service Powered By NEXCHANGE which is owned 
+ by YOA LTD
                           <a href="https://beta.companieshouse.gov.uk/company/10009845" target="_blank" rel="noopener noreferrer">
                             YOA LTD. (registered company No. 10009845)
                           </a>.
                         </p>
                         <p>
-                          Our VAT number - GB233 5420 37.<br />Our registered office address - Suite 11, Penhurst House, 352-254 Battersea
+                          VAT number - GB233 5420 37.<br />Our registered office address - Suite 11, Penhurst House, 352-254 Battersea
                           Park Road, London, England, SW11 3BY.
                         </p>
                         <p>
-                          Our customer support phone number in UK is <a href="tel:+442081442192">+442081442192</a>.
+                          HTHWorld customer support is used <a href="mailto:support@hthcoin.world">support@hthcoin.world</a>.
                         </p>
                       </div>
                     </Trans>
@@ -53,17 +54,17 @@ class FAQ extends Component {
                 />
 
                 <QuestionAnswer
-                  id="ques2"
+                  id="What is the purpose of HTHWorld?"
                   answer={
                     <div>
-                      <Trans i18nKey="faq.ans2">
+                      <Trans i18nKey="ans2">
                         <p>
                           We allow you to exchange one cryptocurrency for another. To view our currently supported coins, please click on
                           the coin selection widget in the top of fold of the page.
                         </p>
                         <p>We will be adding more currencies very soon, stay tuned!</p>
                         <p>
-                          Missing your favorite coin? Let us know here: <a href="mailto:support@n.exchange">support@n.exchange</a>.
+                          Missing your favorite coin? Let us know here: <a href="mailto:support@hthcoin.world">support@hthcoin.world</a>.
                         </p>
                       </Trans>
                     </div>
@@ -71,21 +72,21 @@ class FAQ extends Component {
                 />
 
                 <QuestionAnswer
-                  id="ques3"
+                  id="Are there any fees?"
                   answer={
-                    <Trans i18nKey="faq.ans3">
+                    <Trans i18nKey="ans3">
                       <p>
                         Our service fee is 0.5%. There are no hidden fees here: the amount you see on the screen is the exact amount you get
-                        in your wallet.
+                        in your wallet. These fees may change over time.
                       </p>
                     </Trans>
                   }
                 />
 
                 <QuestionAnswer
-                  id="ques4"
+                  id="How long per transaction?"
                   answer={
-                    <Trans i18nKey="faq.ans4">
+                    <Trans i18nKey="ans4">
                       <p>
                         Initiating a transaction doesn’t take more than a couple of minutes. The actual processing takes about 10–60 minutes
                         before you receive your coins in your desired currency. The transaction time depends on the selected currencies and
@@ -96,10 +97,10 @@ class FAQ extends Component {
                 />
 
                 <QuestionAnswer
-                  id="ques5"
+                  id="How do I use HTHWorld?"
                   answer={
                     <div>
-                      <Trans i18nKey="faq.ans5">
+                      <Trans i18nKey="ans5">
                         <p>Here is how you use the exchange:</p>
                         <ol>
                           <li>
@@ -130,9 +131,9 @@ class FAQ extends Component {
                 />
 
                 <QuestionAnswer
-                  id="ques6"
+                  id="Private Info Collection"
                   answer={
-                    <Trans i18nKey="faq.ans6">
+                    <Trans i18nKey="ans6">
                       <p>
                         For cryptocurrency only exchange orders , We do not collect or store any private information about you. The process
                         is completely anonymous. For FIAT (USD,GBP,EUR etc) orders we do a strict compliance according to best KYC/AML
@@ -142,22 +143,24 @@ class FAQ extends Component {
                   }
                 />
 
-                <QuestionAnswer id="ques7" answer={<img src="/img/verification.png" alt="Verification" />} />
+                <QuestionAnswer 
+                   id="Any Verification?"
+                   answer={<img src="/img/verification.png" alt="Verification" />} />
 
                 <QuestionAnswer
-                  id="ques8"
+                  id="Do you rely on anyone?"
                   answer={
-                    <Trans i18nKey="faq.ans8">
+                    <Trans i18nKey="ans8">
                       <p>No, our solution is completely independant. We use our internal coin reserves to provide liquidity.</p>
                     </Trans>
                   }
                 />
 
                 <QuestionAnswer
-                  id="ques9"
+                  id="Do you provide wallet hosting services?"
                   answer={
                     <div>
-                      <Trans i18nKey="faq.ans9">
+                      <Trans i18nKey="ans9">
                         <p>We do not provide wallet hosting service at the moment. The exchange happens between two of your wallets:</p>
                         <ol>
                           <li>
@@ -174,10 +177,10 @@ class FAQ extends Component {
                 />
 
                 <QuestionAnswer
-                  id="ques10"
+                  id="A Friendly Reminder!"
                   answer={
                     <div>
-                      <Trans i18nKey="faq.ans10">
+                      <Trans i18nKey="ans10">
                         <p>Every order has a unique id like this:</p>
                         <img src="/img/faq/faq.png" style={{ margin: '10px 0' }} alt="Order ID example" />
                         <p>Make sure you record your order id. We recommend bookmarking the page, you can always navigate to it later.</p>
@@ -192,10 +195,10 @@ class FAQ extends Component {
                 />
 
                 <QuestionAnswer
-                  id="ques11"
+                  id="Are there Referrals?"
                   answer={
                     <div>
-                      <Trans i18nKey="faq.ans11">
+                      <Trans i18nKey="ans11">
                         <p>Whenever you create an order, a referral code is automatically generated for you.</p>
                         <p>Current referral conditions are as follows:</p>
                         <ol>
@@ -221,10 +224,10 @@ class FAQ extends Component {
                 />
 
                 <QuestionAnswer
-                  id="ques12"
+                  id="Some more Friendly Information that's Important!"
                   answer={
                     <div>
-                      <Trans i18nKey="faq.ans12">
+                      <Trans i18nKey="ans12">
                         <p>
                           There's a 15-minute window between the moment you open the order and the moment we detect the coins that you sent
                           on the blockchain. During this time interval, we effectively freeze the price for your order.
@@ -243,13 +246,13 @@ class FAQ extends Component {
                   }
                 />
                 <QuestionAnswer
-                  id="ques13"
+                  id="Can I promote HTHWorld?"
                   answer={
                     <div>
-                      <Trans i18nKey="faq.ans13">
+                      <Trans i18nKey="ans13">
                         <p>
-                          Yes. Promote N.exchange on social media (such as Twitter). We would pay you 1000 SAT for every retweet from a
-                          legitimate, real account with over 500 followers and 100 SAT for each like from an account of the same criteria.
+                          Yes. Promote HTHWorld on social media (such as Twitter). We would pay you 1000 HTH for every retweet from a
+                          legitimate, real account with over 500 followers and 100 HTH for each like from an account of the same criteria.
                         </p>
                         <p>
                           <b>We reserve the right to deny the bonus coins on any grounds we see fit.</b>
@@ -259,17 +262,20 @@ class FAQ extends Component {
                   }
                 />
                 <QuestionAnswer
-                  id="ques14"
+                  id="Do I need my own wallet?"
                   answer={
                     <div>
-                      <Trans i18nKey="faq.ans14">
+                      <Trans i18nKey="ans14">
                         <p>
-                          In order to use N.exchange, you need to have your own wallet. The main upside of this feature is that we don’t
+                          In order to use HTHWorld, you need to have your own wallet. The main upside of this feature is that we don’t
                           hold your coins, and thus you retain full control over your assets at all times.
                         </p>
                         <p>If you need some help obtaining a wallet for your desired cryptocurrency, please look here:</p>
                         <ul>
                           <li>
+                            Help The Homeless Coin (HTH): <a href="https://github.com/HTHcoin/HTH/releases">https://github.com/HTHcoin/HTH/releases</a>
+                           </li>
+                           <li>
                             Bitcoin (BTC): <a href="https://bitcoin.org/en/choose-your-wallet">https://bitcoin.org/en/choose-your-wallet</a>
                           </li>
                           <li>

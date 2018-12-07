@@ -14,8 +14,8 @@ class KYCModalTier2 extends Component {
       filesReady: false,
       whitelist_selfie: '',
       residenceProof: '',
-      title: i18n.t('order.fiat.kyc.3'),
-      buttonText: i18n.t('order.fiat.kyc.4'),
+      title: i18n.t('Fiat Order'),
+      buttonText: i18n.t('Order'),
       titleClass: '',
       message: '',
     };
@@ -41,8 +41,8 @@ class KYCModalTier2 extends Component {
     this.setState({
       filesReady: false,
       whitelist_selfie: '',
-      title: i18n.t('order.fiat.kyc.3'),
-      buttonText: i18n.t('order.fiat.kyc.4'),
+      title: i18n.t('Fiat Order'),
+      buttonText: i18n.t('Order'),
       titleClass: '',
       message: '',
     });
@@ -52,9 +52,9 @@ class KYCModalTier2 extends Component {
     event.preventDefault();
 
     this.setState({
-      title: i18n.t('order.fiat.kyc.uploading'),
+      title: i18n.t('Order Uploading'),
       titleClass: 'warning',
-      buttonText: i18n.t('order.fiat.kyc.uploading'),
+      buttonText: i18n.t('Upload'),
       filesReady: false,
     });
 
@@ -76,9 +76,9 @@ class KYCModalTier2 extends Component {
       })
       .then(response => {
         this.setState({
-          title: i18n.t('order.fiat.kyc.status7'),
+          title: i18n.t('Fiat Order'),
           titleClass: 'green',
-          buttonText: i18n.t('order.fiat.kyc.5'),
+          buttonText: i18n.t('Order'),
           filesReady: false,
         });
 
@@ -88,9 +88,9 @@ class KYCModalTier2 extends Component {
       })
       .catch(error => {
         this.setState({
-          title: i18n.t('order.fiat.kyc.status8'),
+          title: i18n.t('Fiat Order'),
           titleClass: 'danger',
-          buttonText: i18n.t('order.fiat.kyc.4'),
+          buttonText: i18n.t('Order'),
         });
       });
   }
@@ -128,7 +128,7 @@ class KYCModalTier2 extends Component {
             <h4 className={`modal-title text-${this.state.titleClass}`}>{this.state.title}</h4>
             <h5 style={{ marginBottom: 0 }}>
               <b>
-                {t('order.fiat.tier.explanation')}
+                {t('Tier Explanation')}
               </b>
             </h5>
           </div>
@@ -136,9 +136,9 @@ class KYCModalTier2 extends Component {
           <div className="modal-body">
             <form onSubmit={this.handleSubmit}>
               <div style={{ marginBottom: 45 }}>
-                <h2>{t('order.fiat.tier.w_selfie')}</h2>
+                <h2>{t('Tier Selfie')}</h2>
                 <small>
-                  {t('order.fiat.tier.w_selfieexplanation')}
+                  {t('Selfie Explanation')}
                 </small>
                 <input type="file" name="whitelist_selfie" id="whitelist_selfie" onChange={this.handleInputChange} accept="image/*" />
               </div>
@@ -146,7 +146,7 @@ class KYCModalTier2 extends Component {
               <textarea
                 name="message"
                 className="form-control"
-                placeholder={t('order.fiat.kyc.msg')}
+                placeholder={t('Message')}
                 rows="2"
                 onChange={this.handleInputChange}
                 value={this.state.message}

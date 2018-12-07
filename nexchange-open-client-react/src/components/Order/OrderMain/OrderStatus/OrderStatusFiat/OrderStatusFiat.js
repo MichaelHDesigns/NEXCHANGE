@@ -23,10 +23,10 @@ const OrderStatusFiat = props => {
             data-toggle="tooltip"
             data-placement="top"
             title=""
-            data-original-title={t('order.status11')}
+            data-original-title={t('Order Status')}
           >
             <Deposit />
-            <h4>{t('order.status1')}</h4>
+            <h4>{t('Awaiting Deposit')}</h4>
           </div>
 
           <div
@@ -40,10 +40,10 @@ const OrderStatusFiat = props => {
             data-toggle="tooltip"
             data-placement="top"
             title=""
-            data-original-title={t('order.fiat.status.14')}
+            data-original-title={t('Confirmations')}
           >
             <Confirmations />
-            <h4>{t('order.fiat.status.13')}</h4>
+            <h4>{t('Awaiting Confirmations')}</h4>
           </div>
 
           <div
@@ -59,10 +59,10 @@ const OrderStatusFiat = props => {
             data-toggle="tooltip"
             data-placement="top"
             title=""
-            data-original-title={t('order.status31')}
+            data-original-title={t('All Done')}
           >
             <Done />
-            <h4>{t('order.status3')}</h4>
+            <h4>{t('All Done')}</h4>
           </div>
         </div>
       )}

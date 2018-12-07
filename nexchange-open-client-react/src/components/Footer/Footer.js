@@ -12,17 +12,22 @@ const Footer = () => (
             <div className="col-xs-12 col-sm-8 col-md-6">
               <Trans i18nKey="footer.3">
                 <p className={styles.address}>
-                  All rights reserved, HTHWorld 2018,<br />Help The Homeless Coin Company{' '}                              </p>
-              </Trans>
+                  <strong><p><span className="text-gold"
+>{t('All Right Reserved HTHWorld')}</span></p></strong>
+<strong><p><span className="text-green">{t('Powered By NEXCHANGE')}</span></p></strong>
+               </p>
+               </Trans>
             </div>
 
             <div className="col-xs-12 col-sm-4 col-md-6">
               <ul className={styles.links}>
                 <li>
-                                         
+                  <Link to="/terms-and-conditions">{t('Terms & Conditions')}</Link>                       
                 </li>
-                <li>
-                  <Link to="/privacy">{t('Privacy Policy')}</Link>
+                
+                      
+   <li>
+                  <Link to="/privacy"><p><span className="text-green">{t('Privacy Policy')}</span></p></Link>
                  </li>
               </ul>
             </div>

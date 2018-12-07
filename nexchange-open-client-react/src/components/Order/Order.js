@@ -9,6 +9,7 @@ import config from 'Config';
 import OrderMain from './OrderMain/OrderMain';
 import OrderTop from './OrderTop/OrderTop';
 
+
 import NotFound from 'Components/NotFound/NotFound';
 import OrderLoading from './OrderLoading/OrderLoading';
 import OrderCoinsProcessed from './OrderCoinsProcessed/OrderCoinsProcessed';
@@ -77,7 +78,6 @@ class Order extends Component {
             <div className="row">
               <OrderTop order={this.state.order} />
               <OrderCoinsProcessed order={this.state.order} />
-
               <OrderMain order={this.state.order} />
               <OrderCta order={this.state.order} />
             </div>

@@ -27,7 +27,7 @@ class OrderReleased extends Component {
         <I18n ns="translations">
           {t => (
             <div className={styles.container}>
-              <h2 className={styles.title}>{t('order.processing')}...</h2>
+              <h2 className={styles.title}>{t('Processing Order')}...</h2>
               <OrderLinks {...this.props} />
             </div>
           )}
@@ -41,10 +41,10 @@ class OrderReleased extends Component {
           <div className={styles.container}>
             <OrderStateLoader />
             <h2 className={styles.title}>
-              {t('order.released')} ({this.tx.confirmations}/{this.minConfirmations})
+              {t('Order Released')} ({this.tx.confirmations}/{this.minConfirmations})
             </h2>
             <h3 className={styles.subtitle}>
-              {t('order.txid')}:{' '}
+              {t('Order TxId')}:{' '}
               <a href={getBlockchainUrl(this.coin.code, this.txId)} target="_blank" className="text-green">
                 {this.txId}
               </a>

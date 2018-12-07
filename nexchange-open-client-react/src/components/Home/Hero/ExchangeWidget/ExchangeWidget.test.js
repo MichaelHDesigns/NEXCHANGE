@@ -6,8 +6,8 @@ import ExchangeWidget from './ExchangeWidget.js';
 describe('ExchangeWidget', () => {
   const initialState = {
     wallet: { address: '', valid: false, show: false },
-    selectedCoin: { deposit: 'OMG', receive: 'ETH', prev: { deposit: 'OMG', receive: 'ETH' }, lastSelected: 'deposit' },
-    price: { pair: 'ETHOMG', deposit: 101, receive: 1.76250023, lastEdited: 'deposit' },
+    selectedCoin: { deposit: 'HTH', receive: 'BTC', prev: { deposit: 'HTH', receive: 'BTC' }, lastSelected: 'deposit' },
+    price: { pair: 'BTCHTH', deposit: 1, receive: 1.76250023, lastEdited: 'deposit' },
     error: { show: false, type: 'INVALID_AMOUNT' },
   };
   const mockStore = configureStore();

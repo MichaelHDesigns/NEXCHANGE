@@ -42,7 +42,7 @@ class ExchangeWidget extends Component {
 
         this.props.errorAlert({
           show: true,
-          message: `${i18n.t('error.providevalid')} ${this.props.selectedCoin.receive} ${i18n.t('generalterms.address')}.`,
+          message: `${i18n.t('error.providevalid')} ${this.props.selectedCoin.receive} ${i18n.t('Address')}.`,
         });
       }
 
@@ -120,14 +120,14 @@ class ExchangeWidget extends Component {
 
                     <WalletAddress onSubmit={this.placeOrder} inputRef={el => (this.walletInputEl = el)} />
                     <div className={styles.submit}>
-                      <p className={styles.info}>{t('Fees')}</p>
+                      <p className={styles.info}>{t('Fees are included in your trade')}</p>
 
                       {/* eslint max-len: ["error", { "code": 200 }] */}
                       <button className={`${styles.btn} ${this.props.wallet.valid && !this.state.loading ? null : 'disabled'} btn btn-block btn-primary proceed `} onClick={this.placeOrder}>
-                        {t('PROCEED')}
+                    <p><span className="text-green"> {t('PROCEED')}</span></p>
                         {this.state.loading ? <i className="fab fa-spinner fa-spin" style={{ marginLeft: '10px' }} /> : null}
                       </button>
-                        <p className={styles.infotc} dangerouslySetInnerHTML={{__html: t('ClickTC', {'buttonName':t('exchangewidget.2')})}}/>
+                        <p className={styles.infotc} dangerouslySetInnerHTML={{__html: t('By Clicking PROCEED you agree to T&C', {'buttonName':t('exchangewidget.2')})}}/>
                     </div>
                   </div>
                 </div>

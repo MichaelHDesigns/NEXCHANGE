@@ -13,7 +13,7 @@ class QuestionAnswer extends Component {
     return (
       <div className="question-answer">
         <h3 onClick={this.onClick} data-test="question-opener">
-          {this.props.t(`faq.${this.props.id}`)} <i className={`far fa-${this.state.open ? 'minus' : 'plus'}-square`} aria-hidden="true" />
+          {this.props.t(`${this.props.id}`)} <i className={`far fa-${this.state.open ? 'minus' : 'plus'}-square`} aria-hidden="true" />
         </h3>
         <div className={this.state.open ? 'answer active' : 'answer'}>{this.props.answer}</div>
         <hr />

@@ -10,9 +10,9 @@ const OrderSuccess = props => (
     {t => (
       <div className={styles.container}>
         <OrderCheckIcon />
-        <h2 className={styles.title}>{t('order.success1')}</h2>
+        <h2 className={styles.title}>{t('Order Successful')}</h2>
         <Link to="/" className={styles['another-order']}>
-          {t('order.success2')}
+          {t('')}
         </Link>
 
         <OrderLinks {...props} />

@@ -8,8 +8,8 @@ const OrderPaid = () => (
     {t => (
       <div className={styles.container}>
         <OrderStateLoader />
-        <h2 className={styles.title}>{t('order.fiat.status.paid')}</h2>
-        <h3 className={styles.subtitle}>{t('order.paid2')}</h3>
+        <h2 className={styles.title}>{t('Order Paid')}</h2>
+        <h3 className={styles.subtitle}>{t('')}</h3>
       </div>
     )}
   </I18n>

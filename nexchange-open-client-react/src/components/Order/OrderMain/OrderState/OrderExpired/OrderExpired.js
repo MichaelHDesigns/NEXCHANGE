@@ -14,7 +14,7 @@ class OrderExpired extends Component {
         {t => (
           <div className={styles.container}>
             <OrderAlert />
-            <h2 className={styles.title}>{t('order.expired1')}</h2>
+            <h2 className={styles.title}>{t('Order Expired')}</h2>
 
             <Trans i18nKey="order.expired2">
               <h3 className={styles.subtitle}>
@@ -26,7 +26,7 @@ class OrderExpired extends Component {
             </Trans>
 
             <h4 className={styles.warning} data-toggle="tooltip" data-placement="top" data-original-title={t('order.expired3')}>
-              {t('order.expired4')}
+              {t('')}
             </h4>
           </div>
         )}

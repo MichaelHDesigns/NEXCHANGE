@@ -10,14 +10,14 @@ const OrderLinks = props => (
       <div className={styles.links}>
         {props.order && (
           <a href={`${config.API_BASE_URL}/orders/${props.order.unique_reference}`} className={`btn ${styles.btn}`} target="_blank">
-            {t('order.api')}
+            {t('Order API')}
           </a>
         )}
 
         {props.coin &&
           props.txId && (
             <a href={getBlockchainUrl(props.coin, props.txId)} className={`btn ${styles.btn}`} target="_blank">
-              {t('order.blockchain')}
+              {t('Order Blockchain')}
             </a>
           )}
       </div>

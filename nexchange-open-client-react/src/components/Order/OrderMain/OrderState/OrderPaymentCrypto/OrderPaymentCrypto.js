@@ -29,7 +29,7 @@ class OrderPayment extends Component {
           {t => (
             <div className={styles.container}>
               <OrderStateLoader />
-              <h2 className={styles.title}>{t('order.payment1')}</h2>
+              <h2 className={styles.title}>{t('Order Payment')}</h2>
               <a href={`${config.API_BASE_URL}/orders/${this.props.order.unique_reference}`} target="_blank">
                 <h4 style={{ margin: '25px 0 0px', fontWeight: '500' }}>{t('order.api')}</h4>
               </a>
@@ -45,7 +45,7 @@ class OrderPayment extends Component {
           <div className={styles.container}>
             <OrderStateLoader />
             <h2 className={styles.title}>
-              {t('order.payment2')}{' '}
+              {t('Order TxId')}{' '}
               <span>
                 ({this.tx.confirmations}/{this.minConfirmations})
               </span>

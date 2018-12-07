@@ -9,13 +9,13 @@ const OrderInitial = props => {
     <div id="order-payment" className={`row ${styles.container}`}>
       <div id="order-payment-details" className="col-xs-12 col-ms-6 col-sm-6 col-md-4">
         <h3>
-          {t('order.initial1')}:{' '}
+          {t('Order Initial')}:{' '}
           <span className={styles.time}>
             <b>{props.time}</b>
           </span>
         </h3>
         <h4>
-          {t('order.pay')}{' '}
+          {t('Pay')}{' '}
           <b>
             {parseFloat(props.order.amount_quote)} {props.order.pair.quote.code}
           </b>
@@ -66,14 +66,14 @@ const OrderInitial = props => {
       </div>
 
       <div className={`col-xs-12 col-ms-6 col-sm-6 col-md-8 ${styles.cards}`}>
-        <h3>{t('order.fiat.cards')}:</h3>
+        <h3>{t('Cards Accepted')}:</h3>
 
         <div className="visible-xs-block visible-sm-block">
-          <img src="/img/order/cards-mobile.png" alt={t('order.fiat.cardsaccepted')} />
+          <img src="/img/order/cards-mobile.png" alt={t('Cards Accepted')} />
         </div>
 
         <div className="visible-md-block visible-lg-block">
-          <img src="/img/order/cards-desktop.png" alt={t('order.fiat.cardsaccepted')} />
+          <img src="/img/order/cards-desktop.png" alt={t('Cards Accepted')} />
         </div>
       </div>
     </div>

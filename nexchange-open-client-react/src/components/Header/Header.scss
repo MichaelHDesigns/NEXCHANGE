@@ -1,4 +1,4 @@
-.header {
+ .header {
   position: relative;
   width: 100%;
   padding: 15px;
@@ -7,15 +7,6 @@
   z-index: 3;
   background: #000;
 
-  :global .navbar-toggle {
-    border: 1px solid $gray;
-    margin-top: 2px;
-    margin-right: 0;
-
-    :global .icon-bar {
-      background: $gray;
-    }
-  }
 
   :global .navbar-nav {
     margin-top: 0;
@@ -95,12 +86,12 @@
   }
 }
 
-.link.link.link.link {
+ .link.link.link.link {
   padding: 8px 0;
   font-size: 12px;
   text-transform: uppercase;
   font-family: 'Clan Offc Pro Medium';
-  color: $black;
+  color: $green !important;
 
   &:hover,
   &:visited,
@@ -137,6 +128,7 @@
 
     @media (min-width: $screen-md-min) {
       padding: 10px 15px;
+
     }
 
     @media (min-width: $screen-lg-min) {
@@ -161,6 +153,6 @@
   overflow: hidden;
 
   img {
-    width: 195px;
+    width: 100px;
   }
 }

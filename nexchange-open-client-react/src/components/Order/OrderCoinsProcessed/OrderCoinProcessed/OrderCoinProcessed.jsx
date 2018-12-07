@@ -28,13 +28,14 @@ class OrderCoinProcessed extends Component {
       $('#copy-address-to-clipboard').tooltip({
         trigger: 'click',
         placement: 'top',
+        color: $green,
       });
 
       $('#copy-address-to-clipboard')
         .tooltip('hide')
-        .attr('data-original-title', i18n.t('order.copy'))
+        .attr('data-original-title', i18n.t('Copy Order'))
         .tooltip('show');
-
+        
       setTimeout(() => {
         $('#copy-address-to-clipboard').tooltip('destroy');
       }, 1000);

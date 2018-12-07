@@ -603,7 +603,7 @@ export default {
           name: 'doge',
           min_confirmations: 6,
           is_crypto: true,
-          minimal_amount: '100.00000000',
+          minimal_amount: '1.00000000',
           maximal_amount: '5000000.00000000',
           is_base_of_enabled_pair: true,
           is_quote_of_enabled_pair: false,

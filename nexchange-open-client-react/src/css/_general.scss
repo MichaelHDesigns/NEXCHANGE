@@ -1,7 +1,7 @@
 body,
 html {
   height: 100%;
-  background: #fff;
+  background: #000;
 }
 
 #root {
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  color: $black;
+  color: $green;
 }
 
 button[disabled],
@@ -31,12 +31,14 @@ p,
 li {
   font-size: 16px;
   line-height: 1.5em;
+  color: $green;
 }
 
 h1 {
   font-size: 34px;
   @media (min-width: $screen-sm-min) {
     font-size: 46px;
+   color: $green;
   }
 }
 
@@ -48,7 +50,7 @@ h2 {
 }
 
 a {
-  color: $black;
+  color: $green;
   &:visited,
   &:focus {
     outline: none;
@@ -104,9 +106,10 @@ textarea.form-control:focus {
   width: 100%;
   padding: 15px;
   margin-bottom: 15px;
-  border: 1px solid #efefef;
+  border: 1px solid #000;
   border-radius: 4px;
-  background: #fff;
+  background: #000;
+  color: $green;
 
   @media (min-width: $screen-sm-min) {
     margin-bottom: 30px;

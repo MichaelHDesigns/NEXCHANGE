@@ -6,16 +6,14 @@ export default (address, coin, errorCb, successCb) => {
     EOS: /^0x[0-9a-fA-F]{40}$/,
     BDG: /^0x[0-9a-fA-F]{40}$/,
     GNT: /^0x[0-9a-fA-F]{40}$/,
-    OMG: /^0x[0-9a-fA-F]{40}$/,
     QTM: /^0x[0-9a-fA-F]{40}$/,
     BAT: /^0x[0-9a-fA-F]{40}$/,
     REP: /^0x[0-9a-fA-F]{40}$/,
     BNB: /^0x[0-9a-fA-F]{40}$/,
     KCS: /^0x[0-9a-fA-F]{40}$/,
     KNC: /^0x[0-9a-fA-F]{40}$/,
-    HT: /^0x[0-9a-fA-F]{40}$/,
+    HT:  /^0x[0-9a-fA-F]{40}$/,
     BNT: /^0x[0-9a-fA-F]{40}$/,
-    BIX: /^0x[0-9a-fA-F]{40}$/,
     COB: /^0x[0-9a-fA-F]{40}$/,
     COSS: /^0x[0-9a-fA-F]{40}$/,
     BMH: /^0x[0-9a-fA-F]{40}$/,
@@ -26,7 +24,7 @@ export default (address, coin, errorCb, successCb) => {
     ZEC: /^t[1-9A-Za-z]{34}$/,
     USDT: /^1[1-9A-Za-z]{33}$/,
     XMR: /^[4|8][0-9a-zA-Z]{94}$/,
-    HTH: /^[H][a-km-zA-HJ-NP-Z1-9]{25,34}$/,
+    HTH: /^[H][a-km-zA-HJ-NP-Z0-9]{25,34}$/,
   };
 
   const coinRules = rules[coin];

@@ -78,7 +78,7 @@ class CoinsDropdown extends Component {
         <i className={`${styles.search} fas fa-search`} aria-hidden="true" />
         <input
           type="text"
-          placeholder={this.props.t('generalterms.search')}
+          placeholder={this.props.t('Search')}
           ref={input => (this.searchInput = input)}
           onChange={this.handleChange}
           value={this.state.value}

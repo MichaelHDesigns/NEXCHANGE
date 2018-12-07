@@ -9,8 +9,8 @@ const OrderPreReleased = props => (
     {t => (
       <div className={styles.container}>
         <OrderStateLoader />
-        <h2 className={styles.title}>{t('order.pre1')}</h2>
-        <h3 className={styles.subtitle}>{t('order.pre2')}</h3>
+        <h2 className={styles.title}>{t('Order PreReleased')}</h2>
+        <h3 className={styles.subtitle}>{t('')}</h3>
 
         <OrderLinks {...props} />
       </div>

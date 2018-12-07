@@ -8,6 +8,7 @@ import { bindActionCreators } from 'redux';
 import { setUserEmail } from 'Actions';
 import config from 'Config';
 
+
 class Support extends Component {
   state = {
     loading: false,
@@ -88,27 +89,23 @@ class Support extends Component {
     return (
       <I18n ns="translations">
         {t => (
-          <Modal id="support" show={this.state.show} onHide={this.close}>
+          <Modal id="Support" show={this.state.show} onHide={this.close}>
             <div className="modal-content">
               <div className="modal-header">
                 <button type="button" className="close" data-dismiss="modal" aria-hidden="true" onClick={this.close}>
                   <i className="material-icons">clear</i>
                 </button>
-                <h4 className="modal-title">{t('Please fill out the form')}</h4>                 
+                <h4 className="modal-title">{t('Customer Support')}</h4>
               </div>
 
               <div className="modal-body">
                 <div className="row">
                   <div className="col-xs-12 col-sm-6">
-                
+                    <h3>{t('Email')}</h3>
+                    <a href="mailto:support@hthcoin.world">support@htcoin.world</a>
                   </div>
 
-                  <div className="col-xs-12 col-sm-6">
-                    <h3>{t('Email Support')}</h3>
-                    <p>
-                      <a href="mailto:support@hthcoin.world">support@hthcoin.world</a>
-                    </p>
-                  </div>
+                  
                 </div>
 
                 <form id="support-form" onSubmit={this.handleSubmit}>
@@ -128,7 +125,7 @@ class Support extends Component {
                           required
                         />
                       </div>
-
+                     
                       <div className="form-group is-empty">
                         <input
                           type="email"
@@ -147,7 +144,7 @@ class Support extends Component {
                           type="text"
                           name="subject"
                           className="form-control"
-                          placeholder={t('Topic of Issue')}
+                          placeholder={t('Subject')}
                           onChange={this.handleInputChange}
                           value={this.state.subject}
                         />
@@ -156,7 +153,7 @@ class Support extends Component {
                       <textarea
                         name="message"
                         className="form-control"
-                        placeholder={t('Brief Description of Issue')}
+                        placeholder={t('Details')}
                         rows="2"
                         onChange={this.handleInputChange}
                         value={this.state.message}
@@ -164,7 +161,7 @@ class Support extends Component {
                       />
 
                       <button type="submit" className="btn btn-themed btn-md" disabled={this.state.loading ? 'disabled' : null}>
-                        {t('SUBMIT')}
+                        <span className="text-gold">Send</span>
                         {this.state.loading ? <i className="fab fa-spinner fa-spin" style={{ marginLeft: '10px' }} /> : null}
                       </button>
 
@@ -175,7 +172,7 @@ class Support extends Component {
                         onClick={this.close}
                         style={{ float: 'right', padding: '15px 0 0 0' }}
                       >
-                        {t('CANCEL')}
+                        {t('Cancel')}
                       </button>
                     </div>
                   ) : (
@@ -186,7 +183,7 @@ class Support extends Component {
                       onClick={this.close}
                       style={{ padding: '0' }}
                     >
-                      {t('support.9')}
+                      {t('Cancel')}
                     </button>
                   )}
                 </form>

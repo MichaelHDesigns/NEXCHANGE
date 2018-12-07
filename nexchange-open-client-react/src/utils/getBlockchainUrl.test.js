@@ -6,7 +6,6 @@ describe('Prepare pairs', () => {
     expect(getBlockchainUrl('EOS', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('BDG', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('GNT', '123')).toBe('https://etherscan.io/tx/123');
-    expect(getBlockchainUrl('OMG', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('QTM', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('BAT', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('REP', '123')).toBe('https://etherscan.io/tx/123');
@@ -15,7 +14,6 @@ describe('Prepare pairs', () => {
     expect(getBlockchainUrl('KNC', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('HT', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('BNT', '123')).toBe('https://etherscan.io/tx/123');
-    expect(getBlockchainUrl('BIX', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('COB', '123')).toBe('https://etherscan.io/tx/123');
     expect(getBlockchainUrl('COSS', '123')).toBe('https://etherscan.io/tx/123');
   });

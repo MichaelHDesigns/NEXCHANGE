@@ -13,7 +13,7 @@ class OrderInitial extends Component {
 
     $('#copy-to-clipboard')
       .tooltip('hide')
-      .attr('data-original-title', i18n.t('order.copy'))
+      .attr('data-original-title', i18n.t('Order Copy'))
       .tooltip('show');
 
     setTimeout(() => {
@@ -32,23 +32,23 @@ class OrderInitial extends Component {
         {t => (
           <div className={styles.container}>
             <div className={styles['qr-container']}>
-              <img className={styles.qr} src={this.getDepositAddressQr()} alt={t('order.qr')} />
+              <img className={styles.qr} src={this.getDepositAddressQr()} alt={t('Order QR')} />
             </div>
 
             <div className={styles.details}>
               <h3>
-                {t('order.initial1')}:{' '}
+                {t('Order Initial')}:{' '}
                 <span className={styles.time}>
                   <b>{this.props.time}</b>
                 </span>
               </h3>
 
               <h4>
-                {t('order.initial2')}{' '}
+                {t('')}{' '}
                 <b>
                   {this.props.order.amount_quote} {this.props.order.pair.quote.code}
                 </b>{' '}
-                {t('order.initial3')}
+                {t('')}
                 <br />
                 <b className={styles.address} style={{ wordWrap: 'break-word' }}>
                   {this.props.order.deposit_address.address}
@@ -57,7 +57,7 @@ class OrderInitial extends Component {
 
               <CopyToClipboard text={this.props.order.deposit_address.address} onCopy={() => this.triggerCopyTooltip()}>
                 <button id="copy-to-clipboard" type="button" className="btn btn-default" data-test="copy-address">
-                  {t('order.initial4')}
+                 <p><span className="text-gold">{t('Copy Address')}</span></p>
                 </button>
               </CopyToClipboard>
             </div>

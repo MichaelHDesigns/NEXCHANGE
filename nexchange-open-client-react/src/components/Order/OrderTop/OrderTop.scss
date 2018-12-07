@@ -3,6 +3,7 @@
   padding: 0;
   margin-bottom: 16px;
   color: $green;
+  font-weight: bold;
 
   @media (min-width: $screen-ms-min) {
     float: right;
@@ -18,7 +19,8 @@
 
 .ref.ref {
   margin: 24px 0 0 0;
-  color: $black;
+  color: #debf12;
+  font-weight: bold;
 
   @media (min-width: $screen-ms-min) {
     float: left;

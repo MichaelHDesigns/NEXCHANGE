@@ -19,7 +19,8 @@
 .box h6 {
   margin: 0;
   text-transform: none;
-  color: $black;
+  color: $green;
+  font-weight: bold;
 }
 
 .box h5 {
@@ -83,7 +84,7 @@
 .copy {
   position: relative;
   top: -2px;
-  color: $gray;
+  color: $green;
   cursor: pointer;
 }
 

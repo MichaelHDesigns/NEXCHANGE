@@ -9,7 +9,7 @@ class PriceComparison extends Component {
     nexchange: {},
     changelly: {},
     shapeshift: {},
-    crex24: {},
+    cmc: {},
   };
 
   componentDidMount() {
@@ -29,9 +29,9 @@ class PriceComparison extends Component {
     }
   };
 
-  showBestRate = (shapeshiftRate, changellyRate, nexchangeRate crex24Rate) => {
-    let rates = [shapeshiftRate, changellyRate, nexchangeRate, crex24Rate],
-      info = ['shapeshift', 'changelly', 'nexchange', 'crex24'];
+  showBestRate = (shapeshiftRate, changellyRate, nexchangeRate cmc) => {
+    let rates = [shapeshiftRate, changellyRate, nexchangeRate, cmc],
+      info = ['shapeshift', 'changelly', 'nexchange', 'cmc'];
 
     let max = 0;
     let idx = null;
@@ -50,16 +50,17 @@ class PriceComparison extends Component {
 
     return <img className={`${info[idx]}-logo`} src={imgUrl} alt={`${info[idx]}`} />;
   };
+
   fetchRates = () => {
-    crex24
-      .all(
-       crex24.get('https://api.crex24.com/v2/public/tickers'),
+    cmc
+      .all([
+       cmc.get('url'),
 ])
 .then(
-   crex24.spread((btceth, btcltc, dogebtc, ethltc, dogeeth, dogeltc) => {
+   cmc.spread((btceth, btcltc, dogebtc, ethltc, dogeeth, dogeltc, btchth) => {
           this.setState(
             {
-              nexchange: {
+              cmc: {
                 btceth: (1 / parseFloat(btceth.data[0].ticker.ask)).toFixed(4),
                 btcltc: (1 / parseFloat(btcltc.data[0].ticker.ask)).toFixed(4),
                 dogebtc: (1 / parseFloat(dogebtc.data[0].ticker.ask)).toFixed(1),

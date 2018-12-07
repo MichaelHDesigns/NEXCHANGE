@@ -11,7 +11,7 @@ class OrderNotifications extends Component {
           <input
             type="email"
             name="email"
-            placeholder={t('notify.email')}
+            placeholder={t('Your Email Address')}
             onChange={this.props.handleChange}
             value={this.props.email}
             disabled={this.props.emailFetched}
@@ -19,7 +19,7 @@ class OrderNotifications extends Component {
           />
 
           <button type="submit" className={`btn btn-primary ${styles.btn}`} disabled={this.props.emailFetched}>
-            {t('generalterms.submit')}
+            {t('Submit')}
           </button>
 
           {this.props.message.text && <h4 className={styles.message}>{this.props.message.text}</h4>}
@@ -36,16 +36,16 @@ class OrderNotifications extends Component {
             <div className={`box ${styles.container}`}>
               <div className="row">
                 <div className="col-xs-12 visible-xs text-center">
-                  <img className={styles.img} src={GetNotified} alt={t('notify.alt')} />
+                  <img className={styles.img} src={GetNotified} alt={t('Notify')} />
                 </div>
 
                 <div className={`col-xs-12 col-sm-7 ${styles.text}`}>
-                  <h2 className={styles.title}>{t('notify.explanation')}</h2>
+                  <h2 className={styles.title}>{t('Notifications')}</h2>
                   {this.renderForm(t)}
                 </div>
 
                 <div className="col-ms-2 col-sm-5 hidden-xs text-center">
-                  <img className={styles.img} src={GetNotified} alt={t('notify.alt')} />
+                  <img className={styles.img} src={GetNotified} alt={t('Notify')} />
                 </div>
               </div>
             </div>

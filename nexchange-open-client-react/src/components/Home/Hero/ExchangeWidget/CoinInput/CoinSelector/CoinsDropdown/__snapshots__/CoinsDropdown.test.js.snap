@@ -172,6 +172,21 @@ ShallowWrapper {
               "name": "Bibox Token",
               "withdrawal_fee": "3.50000000",
             },
+               Object {
+              "code": "HTH",
+              "has_enabled_pairs": true,
+              "has_enabled_pairs_for_test": true,
+              "is_base_of_enabled_pair": false,
+              "is_base_of_enabled_pair_for_test": true,
+              "is_crypto": true,
+              "is_quote_of_enabled_pair": true,
+              "is_quote_of_enabled_pair_for_test": true,
+              "maximal_amount": "100000.00000000",
+              "min_confirmations": 3,
+              "minimal_amount": "10.00000000",
+              "name": "Bibox Token",
+              "withdrawal_fee": "1.0000000",
+            },
             Object {
               "code": "COSS",
               "has_enabled_pairs": true,
@@ -753,9 +768,9 @@ ShallowWrapper {
               "is_quote_of_enabled_pair_for_test": true,
               "maximal_amount": "5000000.00000000",
               "min_confirmations": 6,
-              "minimal_amount": "100.00000000",
+              "minimal_amount": "1.00000000",
               "name": "doge",
-              "withdrawal_fee": "1.00000000",
+              "withdrawal_fee": "0.00005000",
             },
             Object {
               "code": "ZEC",
@@ -798,9 +813,9 @@ ShallowWrapper {
               "is_quote_of_enabled_pair_for_test": true,
               "maximal_amount": "5.00000000",
               "min_confirmations": 2,
-              "minimal_amount": "0.00100000",
+              "minimal_amount": "0.00010000",
               "name": "bitcoin",
-              "withdrawal_fee": "0.00050000",
+              "withdrawal_fee": "0.00005000",
             },
             Object {
               "code": "USDT",
@@ -9543,9 +9558,9 @@ ShallowWrapper {
               "is_quote_of_enabled_pair_for_test": true,
               "maximal_amount": "5000000.00000000",
               "min_confirmations": 6,
-              "minimal_amount": "100.00000000",
+              "minimal_amount": "1.00000000",
               "name": "doge",
-              "withdrawal_fee": "1.00000000",
+              "withdrawal_fee": "0.00005000",
             },
             Object {
               "code": "ZEC",
@@ -15016,4 +15031,4 @@ ShallowWrapper {
     },
   },
 }
-`;
+`;    
